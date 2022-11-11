@@ -1,0 +1,30 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Front-End Developer - Gustavo Torres Navarro",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run-sass" : "sass --watch scss/index.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metaltor/myProfilePage.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "HTML5",
+    "CSS3",
+    "JS",
+    "SASS",
+    "ESLint",
+    "Web Developer",
+    "Frontend"
+  ],
+  "author": "Gustavo Torres Navarro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metaltor/myProfilePage/issues"
+  },
+  "homepage": "https://github.com/metaltor/myProfilePage#readme"
+}

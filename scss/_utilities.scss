@@ -1,0 +1,61 @@
+//variables
+//backgrounds
+$bg-color-principal: rgb(132, 21, 106);
+$bg-color-secondary: rgb(43, 51, 189);
+$bg-color-header-btn:rgb(43, 179, 189);
+$bg-color-header: transparent;
+$bg-color-nav-bar: rgb(92, 93, 93);
+$bg-color-pc-header : rgb(43, 179, 189);
+$bg-color-pc-navbar : transparent;
+
+//colors
+$color-font-nav-bar: #FFFFFF;
+$color-font-pc-nav-bar: #000000;
+
+//sizes
+$size-height-header : 80px;
+
+//mixins
+@mixin grid-about($a-padding-val, $a-c-h1-font-size-val, $a-c-span-font-size-val, $a-b-c-padding-top-val) {
+    &{  
+        padding: $a-padding-val;//1.7rem 5rem 1rem 7.5rem;
+        
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 4fr 1fr;
+        grid-template-areas: 
+            "content img"
+            "button img";
+
+        &__content{
+            height: 100%;
+            padding-top: 0.4rem;
+            padding-left: 0;
+
+            grid-area: content;
+
+            h1,h2,h3,h4{
+                font-size: $a-c-h1-font-size-val;
+            }
+            span{
+                font-size: $a-c-span-font-size-val;
+            }
+        }
+
+        &__img{
+            width: 120%;
+            grid-area: img;
+        }
+
+        &__button-container{
+            padding-top: $a-b-c-padding-top-val;
+            padding-right: 2rem;
+
+            grid-area: button;
+            justify-self: center;
+        }
+
+
+    }
+    
+}
