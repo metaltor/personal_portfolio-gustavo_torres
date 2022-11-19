@@ -1,0 +1,198 @@
+@import "utilities";
+
+.main__projects{
+    @include letter-bounce ;
+    @include main-section;
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        &__image{
+            @include main-section-image;
+        }
+
+        &__text{
+            @include main-section-text;
+        }
+
+    }
+
+    &__grid{
+        //height: 3000px;
+        padding-top: 1.5rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+    @media (max-width: 900px) and (orientation: landscape){
+        margin-top: 0.5rem;
+        &__content{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            
+
+            &__image{
+            
+                width: 15%;
+
+            }
+
+            &__text{
+                h2{
+                    font-size: 5vw;
+                 }
+
+
+                p{
+                    text-indent: 0 ;
+                   font-size: 2vw ;
+                }
+
+            }
+        }
+    }
+    @media (min-width: 900px) and (orientation: landscape){
+        &__content{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            padding-top: 4rem;
+
+            &__image{
+            
+                width: 15%;
+
+            }
+
+            &__text{
+                h2{
+                    font-size: 5vw;
+                 }
+
+
+                p{
+                    text-indent: 0 ;
+                   font-size: 2vw ;
+                }
+
+            }
+        }
+    }
+}
+
+.projects__grid{
+
+    &__element{
+        width: 100%;
+        
+        display: flex;
+        align-items: center;
+        position: relative;
+       
+        &__image{
+            
+            width: 100%;
+            flex-grow: 1;
+            
+            
+            img{
+                width: 100%;
+                max-height: 100%;
+            }
+        }
+
+        &__description{
+            height: 100%;
+            display: none;
+            flex-direction: column;          
+            justify-content: space-between;
+            align-items: center;
+            padding: 2.2em;
+            position: absolute;
+            background-color: $bg-color-project-element-description;
+            p  {
+                font-size: 4.5vw;
+                
+                text-align: justify;
+                color :$text-color-projects-description;
+            }
+
+            &__button{
+                width: 60%;
+                display: flex;
+                justify-content: space-around;
+                
+               
+                a{ 
+                    background-color: $bg-color-projects-button;
+                    border-radius: 10px;
+                    border: 2px solid $border-color-projects-button;
+                    font-size: 7vw;
+                    padding: 0.5rem;
+                    i{
+                        color: $icon-color-projects-button;
+                    }
+                }
+            }
+        }
+       
+    }
+    @media (max-width: 900px) and (orientation: landscape){
+        &{
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            &__element{
+                width: 48%;
+            
+                &__description{
+                    p{
+                        font-size: 3vw;
+                    }
+
+                    &__button{
+                       
+                       
+                       a{
+                        font-size: 4vw;
+                       } 
+                    }
+                }
+            }
+
+        }
+    }
+    @media (min-width: 900px) and (orientation: landscape){
+        &{
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            &__element{
+                width: 32%;
+            
+                &__description{
+                    p{
+                        font-size: 2vw;
+                    }
+
+                    &__button{
+                       
+                       
+                       a{
+                        font-size: 3vw;
+                       } 
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,163 @@
+@import "utilities";
+
+.main__languages{
+    @include main-section;
+    padding-top: 2rem;
+    &__content{
+        @include letter-bounce ;
+        height: 100%;
+        @include card;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        &__image{
+            @include main-section-image;
+            img{
+                @include duration-animation(3s);
+            }
+            
+            
+        }
+        &__text{
+            @include main-section-text;
+        }
+    }
+    &__progress-bars{
+        width: 100%;
+        .frontend, .backend{
+            @include card;
+            margin-bottom: 2rem;
+            width: 100%;
+            
+            h3{
+                font-size: 8vw;
+                padding: 1rem 0 0.5rem 0;
+                font-weight: 900;
+                color: $font-color-h2-content;
+            }
+            p{
+                font-size: 6vw;
+                font-weight: 600;
+                letter-spacing: -1px;
+                color: $font-color-p-text-area;
+            }
+            
+            }
+            .frontend{
+                @include delay-animation(1.5s);
+                @include letter-bounce ;
+            }
+            .backend{
+                @include delay-animation(3s);
+                @include letter-bounce ;
+            }
+    }
+    @media (max-width: 900px) and (orientation: landscape) { 
+        &{  
+            padding: 3rem 2rem 2rem ;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 1rem;
+            &__content{
+                width: 50%;
+                order:2;
+                &__image{
+                    width: 40%;
+                    order:2
+                }
+                &__text{
+                    h2{
+                        font-size: 5vw;
+                    }
+                    p{
+                         font-size: 2.1vw;
+                    }
+                } 
+            }
+            &__progress-bars{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 50%;
+                .backend, .frontend{
+                    @include card;
+                    
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    h3{
+                        font-size: 4vw;
+                        padding: 1rem 0 0.5rem 0;
+                        font-weight: 900;
+                    }
+                    p{
+                        font-size: 3vw;
+                        font-weight: 600;
+                        letter-spacing: -1px;
+                    } 
+                }
+               
+                
+            }
+            
+        } 
+    }
+    @media (min-width: 900px)and (orientation: landscape){
+        &{  
+            padding: 4.5rem 4rem 0.5rem 4rem;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 3rem;
+            &__content{
+                padding: 2rem;
+                width: 50%;
+                order:2;
+                &__image{
+                    width: 40%;
+                    order:2
+                }
+                &__text{
+                    text-align: center;
+                    h2{
+                        font-size: 4.5vw;
+                        padding-bottom: 2rem;
+                    }
+                    p{
+                        font-size: 1.5vw;
+                        padding-bottom: 1.5rem;
+                    }
+                } 
+            }
+            &__progress-bars{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 50%;
+                .backend, .frontend{
+                    @include card;
+                    margin-bottom: 2rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    h3{
+                        font-size: 3.5vw;
+                        margin-bottom: 0.5rem;
+                        padding: 1rem 0 0.5rem 0;
+                        font-weight: 900;
+                    }
+                    p{
+                        font-size: 2.5vw;
+                        font-weight: 600;
+                        letter-spacing: -1px;
+                    } 
+                }
+
+                 
+            }  
+        } 
+    }
+}

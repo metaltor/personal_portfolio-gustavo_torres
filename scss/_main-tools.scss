@@ -1,0 +1,203 @@
+@import "utilities";
+
+.main__tools{
+    @include letter-bounce ;
+    @include main-section;
+    padding: 0.5rem 0 1rem;
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__image{
+            @include main-section-image;
+            
+            @media (min-width: 550px){
+                margin: -3rem 0 0 0;
+            }
+        }
+        
+        &__text{
+            @include main-section-text;
+            padding: 0 1rem;
+            text-align: center;
+
+            @media (max-width: 900px) and (orientation: landscape) { 
+                &{
+                    padding-top: 0 ;
+                    h2{
+                        font-size: 6vw;
+                     }
+    
+                    p{
+                        
+                       font-size: 2.5vw ;
+                    }
+                    
+                }
+            }
+            @media (min-width: 900px) and (orientation: landscape){
+                &{
+                    
+    
+                    h2{
+                        font-size: 5vw;
+                     }
+    
+    
+                    p{
+                       
+                       font-size: 2vw ;
+                    }
+                    
+                }
+            }
+
+        }
+        @media (max-width: 900px) and (orientation: landscape) { 
+            &{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                gap: 2rem; 
+
+                &__image{
+                    
+                    width: 30%;
+
+                   
+                }
+                &__text{
+                    
+                    max-width: 45vw;
+                }
+            }
+
+        }
+        @media (min-width: 900px) and (orientation: landscape){
+            &{
+                
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                gap: 2rem;
+                
+                
+
+                &__image{
+                    
+                    width: 20%;
+
+                   
+                }
+                &__text{
+                    
+                    max-width: 45vw;
+                }
+            }
+        }
+       
+    }
+   
+
+}
+.tools__grid{
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 6rem);
+    grid-template-rows: auto;
+    padding: 0 1rem;
+    
+    // gap: 1rem;
+    
+    &__element{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: $bg-color-tools-grid_element;
+        padding: 1rem;
+        // border-radius: 1rem;
+        h3{
+            font-size: 1.2rem;
+            text-align: center;
+            padding-bottom: 0.5rem;
+        }
+        &__image{
+            width: 80%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                
+                width: 100%;
+            }
+        }
+        
+    }
+
+    @media (min-width: 550px){
+
+        &{
+            grid-template-columns: repeat(4, 1fr);
+            padding: 0 3rem;
+
+            &__element{
+                h3{
+                    font-size: 1.5rem;
+                }
+                &__image{
+                    
+                    width: 80%;
+        
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        
+    }
+    @media (max-width: 900px) and (orientation: landscape){
+        grid-template-columns: repeat(4, 1fr);
+        padding: 0 10rem;
+
+        &__element{
+            h3{
+                font-size: 1.4rem;
+            }
+            &__image{
+                width: 80%;
+    
+                img{
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 900px) and (orientation: landscape){
+        
+        grid-template-columns: repeat(6, 1fr);
+        padding: 0 10rem;
+
+        &__element{
+            h3{
+                font-size: 1.4rem;
+            }
+            &__image{
+                width: 80%;
+    
+                img{
+                    width: 80%;
+                }
+            }
+        }
+    }
+   
+}

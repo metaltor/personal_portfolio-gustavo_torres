@@ -1,0 +1,17 @@
+
+ .main__presentation__container{
+    width: 100vw;
+    min-height: 100vh;
+    max-width:100%;
+ }
+ .main__tools__container, .main__projects__container, .main__languages__container , .main__about__container{
+   width: 100vw;
+   min-height: 100vh;
+   max-width:100%;
+   @media (min-width: 900px) and (orientation:portrait){
+    padding: 3rem 4rem 0 4rem;           
+  }
+ }
+ .footer__container{
+  position: relative;
+ }

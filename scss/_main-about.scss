@@ -1,5 +1,83 @@
 @import "utilities";
 
 .main__about{
-    
+   @include main-section;
+   @include letter-bounce;
+   
+    &__animation{
+        @include main-section-image;
+        // background-color: $bg-color-image-animation-about;
+        background:no-repeat center/110% url(/img/Capture.PNG);
+        margin-bottom: 1rem;
+        border-radius: 100%;
+        border: 6px solid $border-color-image-animation-about;
+        position: relative;
+       
+    }
+    &__content{
+        @include main-section-text;
+        //posible mixin
+        background-color: $bg-color-text-content;
+        box-shadow: 21px 21px 7px -7px rgba(0,0,0,0.6);
+        padding: 1.5rem;
+        border-radius: 2rem;
+        //end
+        // border: 1px solid gray;
+    }
+    @media (max-width: 900px) and (orientation: landscape) { 
+        &{  
+            padding: 1rem 2rem 2rem ;
+            flex-direction: row;
+            gap:3rem;
+            &__animation{
+                width: 35%;
+                
+                // text-align: center;
+                 padding-bottom: 0;
+                
+                
+               
+                
+            }
+            &__content{
+                width: 50%;
+                
+                h2{
+                    font-size: 5vw;
+                }
+                p{
+                     font-size: 2.1vw;
+                     
+                }
+            }
+        } 
+    }
+    @media (min-width: 900px)and (orientation: landscape){
+        &{  
+            padding: 5rem 2rem 2rem ;
+            flex-direction: row;
+            justify-content: space-around;
+            
+            &__animation{
+                
+                width: 35%;
+                // text-align: center;
+                 padding-bottom: 0;
+            }
+            &__content{
+                align-self: flex-start;
+                padding: 2.2rem;
+                width: 50%;
+                text-align: center;
+                h2{
+                    font-size: 4.5vw;
+                    padding-bottom: 2rem;
+                }
+                p{
+                    font-size: 1.5vw;
+                    padding-bottom: 1.5rem;
+                }
+            }
+        }
+    }
 }

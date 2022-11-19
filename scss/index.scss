@@ -9,8 +9,23 @@
 @use "layout";
 //components
 @use "components";
+
+
 //header
 @use "header";
+//main-presentation
+@use "main-presentation";
 //main-about
-@use "main-presentation"
-//pipipi
+@use "main-about";
+//main-languages
+@use "main-languages";
+//main-tools
+@use "main-tools";
+//main-projects
+@use "main-projects";
+//main- contact
+@use "main-contact";
+//footer
+@use "footer";
+//effects
+@use "effects"

@@ -10,14 +10,33 @@
     
 }
 body{
-    background-color: $bg-color-secondary ;
+    background-color: $bg-color-primary ;
     width: 100vw;
     max-width: 100%;
 }
+main{
+    display: flex;
+    flex-direction: column;
+}
 h1,h2,h3,h4{
     font-weight: 900;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
 }
 h1{
     margin: 0;  
+}
+button{
+    padding: 1rem;
+}
+hr{
+    border-color: rgba(128, 128, 128, 0.2);
+    width: 100vw;
+    margin-bottom: 0.5rem;
+}
+p{
+    line-height: 3.5vh;
+    @media (orientation:landscape){
+        line-height: 5vh;
+    }
+    
 }

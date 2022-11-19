@@ -1,6 +1,7 @@
 @import "utilities";
 
 .header {
+
     background-color: $bg-color-header;
     width: 100%;
     height: $size-height-header;
@@ -8,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    z-index: 10000;
 
     &__logo{
         z-index: 1000;
@@ -15,14 +17,20 @@
         background-color: $bg-color-header-btn;
         border-bottom-right-radius: 100%;
         img{
-            max-width: 80px ;
+            max-width: 22vw ;
             
         }
+        &:hover{
+            padding: 1.5rem 2rem 2rem 1rem;
+            transform: scale(1.2);
+            transition: all 0.3s;
+        }
+        
     }
     &__button-menu{
-        padding: 1rem 1rem 2rem 2rem;
+        padding: 0.5rem 0.5rem 1.5rem 1.5rem;
         border:none;
-        font-size: 2rem;
+       
         z-index: 1000;
         margin-top: 0;
         border-bottom-left-radius: 100%;
@@ -30,10 +38,10 @@
 
         
         button{
-            font-size: 2rem;
+            font-size: 9vw;
             background-color: transparent;
             border: none;
-            color: $color-font-nav-bar;
+            color: $icon-color-nav-bar;
         }
         
     }
@@ -59,7 +67,7 @@
             flex-direction: column;
             align-items: flex-start;
             justify-content: space-evenly;
-            padding-top: 1rem ;
+            padding-top: 2rem ;
             
             li{
                 list-style: none;
@@ -68,10 +76,10 @@
                     text-decoration: none;
                     font-size: 2rem;
                     font-weight: 600;
-                    color: $color-font-nav-bar;
+                    color: $font-color-nav-bar;
                     
                     &:active, &:hover{
-                        color: red;
+                        color: $font-color-link_hover-navbar;
                         transition: color 0.2s;
                     }
                     @media (min-width: 700px) {
@@ -90,6 +98,7 @@
         @media (max-width: 900px) and (orientation: landscape) { 
             &{
                flex-direction: row;
+               
 
                ul{
                 height: 100%;
@@ -101,19 +110,24 @@
                }
             }
          }
+         @media (min-width: 900px)and (orientation: landscape){
+            &{
+                transition: none;
+            }
+         }
        
     }
-    @media (min-width: 900px) {
+    @media (min-width: 900px)and (orientation: landscape)  {
         &{
             background-color: $bg-color-pc-header;
-            height: 60px;
+            height: 8vh;
             &__logo{
                 padding: 1rem 2rem 2rem 1rem;
-                border-bottom: 3px solid black;
-                border-right: 3px solid black;
+                // border-bottom: 3px solid $border-color-navbar;
+                // border-right: 3px solid $border-color-navbar;
                 a{
                     img{
-                        max-width: 110px ;
+                        max-width: 10vw ;
                          
                      }
                 }
@@ -127,7 +141,7 @@
             &__nav-bar{
                 display: flex;
                 width: 100%;
-                height: 60px;
+                height: 8vh;
                 flex-direction: row;
                 align-items: center;
                 justify-content: flex-end;
@@ -136,7 +150,7 @@
                 //transition: all 1s ;
 
                 ul{ 
-                    width: 90%;
+                    width: 85vw;
                     flex-direction: row;
                     justify-content: space-evenly;
                     padding-top: 0 ;
@@ -144,7 +158,7 @@
                     li{
                         
                         a{  
-                            font-size: 1.5rem;
+                            font-size:2vw;
                             font-weight: 600;
                             color: $color-font-pc-nav-bar;
                         }
@@ -158,6 +172,28 @@
 
         }
     } 
+    @media (orientation:landscape){
+        &{
+            
+            &__logo{
+                
+                a{
+                    img{
+                        max-width: 10vw ;
+                         
+                     }
+                }
+               
+            }
+            &__button-menu{     
+                
+                button{
+                    font-size: 4vw;
+                  
+                }
+            }    
+        }    
+    }
 }
 
 .open{
