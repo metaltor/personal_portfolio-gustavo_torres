@@ -52,7 +52,7 @@
         letter-spacing: -.5px;
         color: black;
     }
-
+    
     @media (min-width: 900px) and (orientation: landscape){
         height: 5vh;
         &__icons{
@@ -65,6 +65,14 @@
         h2{
             font-size: 1.2vw
         }
+    }
+    @media (max-width: 900px)and (min-width:600px){
+        &{
+            h2{
+                font-size: 2vw;
+            }
+        }
+        
     }
 }
 
@@ -301,4 +309,72 @@ padding: 0.3rem 1.5rem;
         }
    }
 
-   
+   //download pdf
+
+   .share{
+  display:block;
+  width:60px;
+  height:60px;
+  background:$bg-color-projects-button;
+  position:fixed;
+  bottom:20px;
+  left:50px;
+  z-index:999;
+  text-align:center;
+  overflow:hidden;
+  line-height:65px;
+  font-size:1.5em;
+  color:#fff;
+  -moz-box-shadow: 0px 3px 9px rgba(0,0,0,.5);
+-webkit-box-shadow: 0px 3px 9px rgba(0,0,0,.5);
+box-shadow: 0px 3px 9px rgba(0,0,0,.5);
+  border-radius:50px;
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
+
+.share:hover{
+  cursor:pointer;
+}
+
+.one, .two, .three{
+  position:fixed;
+  width:50px;
+  height:50px;
+  color:#fff;
+  border-radius:50px;
+  text-align:center;
+  line-height:49px;
+  font-size:1.5em;
+   bottom:30px;
+  left: 48px;
+   -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,.2);
+box-shadow: 0px 3px 9px rgba(0,0,0,.2);
+  -webkit-transition:transform  .3s ease-in-out;
+  transition:transform .3s ease-in-out;
+}
+
+.one:hover, 
+.two:hover,
+.three:hover{
+  cursor:pointer;
+}
+
+.one i, .two i, .three i{
+  display:none;
+}
+
+
+.one{
+  background:#F70909;
+}
+
+// .two{
+//   background:#00e5ff;
+// }
+
+// .three{
+//   background:#6a1b9a;
+// }

@@ -84,7 +84,7 @@
                     }
                     @media (min-width: 700px) {
                         &{
-                            font-size: 3rem;
+                            font-size: 5vw;
                         }
                     }
                 }
@@ -101,10 +101,11 @@
                
 
                ul{
-                height: 100%;
-                padding-top: 0;
-                order:2
-               }
+                    height: 100%;
+                    padding-top: 0;
+                    order:2
+                    
+                }
                img{
                 width: 40%;
                }
