@@ -4,16 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me - Gustavo Torres Navarro</title>
     <link rel="shortcut icon" href="/img/logo.png">
-    <title>Web Developer- Gustavo Torres Navarro</title>
     <link rel="stylesheet" href="/css/style.css">
-    
     <script src="https://kit.fontawesome.com/7eb663c96c.js" crossorigin="anonymous"></script>
-    <script
-        src="https://code.jquery.com/jquery-3.6.1.min.js"
-        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-        crossorigin="anonymous"></script>
-    
 </head>
 <body>
     <header class="header">
@@ -43,31 +37,61 @@
     </header>
     
     <main class="main">
+        
+        <section class="main__contact__container" id="contact">
 
-        <div class="main__presentation__container" >
-            <section class="main__presentation" id="presentation">
-                <div class="main__presentation__img flipInY">
-                    <img class="backInDown" id="image" src="/img/hilaptop.png" alt="Me like cartoon say hi">
-                </div>
-                    <article class="main__presentation__content">
-                        <div class="type-js-1">
-                            <h2 class="text-type-1">Hi,</h2>
-                        </div>
-                        <div class="type-js-2">
-                            <h2 class="text-type-2">I'm Gustavo,</h2>
-                        </div>
-                        <div class="type-js-3">
-                            <h1 class="text-type-3">web developer</h1>
-                        </div>
-                        <h1 class="showme"><span>Front End Dev. / Full Stack Dev. in Training</span></h1>
-                    </article>
-                  
-                    <div class="main__presentation__button-container ">
-                       <a href="/html/contact.html"><button class="button backInLeft">Contact me!</button></a> 
+            <div class="main__contact" >
+
+                <div class="main__contact__content flipInY"  >
+                    <div class="main__contact__content__image">
+                        <img src="/img/crystal-ball.png" width="100px" alt="">
                     </div>
+
+                    <div class="main__contact__content__text">
+                        <h2>Are you interested in hiring me?</h2>
+                        
+                    </div>
+
+                </div>
                 
-            </section>
-        </div>
+                
+                
+                
+                <form action="/" class="flipInX">
+                    <h2 class="dance-h" >
+                        <span>C</span><span>o</span><span>n</span><span>t</span><span>a</span><span>c</span><span>t</span>
+                        <span> </span><span>m</span><span>e</span>
+                    </h2>
+                    
+                    <div class="input-group half-input">
+                        <input required type="text" name="text" autocomplete="off" class="input">
+                        <label class="user-label">Name:</label>
+                    </div>
+
+                    <div class="input-group half-input">
+                        <input required type="email" name="text" autocomplete="off" class="input">
+                        <label class="user-label">Email:</label>
+                    </div>
+
+                    <div class="input-group">
+                        <input required type="text" name="text" autocomplete="off" class="input">
+                        <label class="user-label">Subject:</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea required type="text" name="text" autocomplete="off" class="input"></textarea>
+                        <label class="user-label">Message...</label>
+                    </div>
+                  
+                    <div class="form-button ">
+                        <button class="button">Send message!</button>
+                    </div>
+                  
+
+                </form>
+
+            </div>
+
+        </section>
 
 
     </main> 
@@ -85,7 +109,7 @@
             <div class="footer__content__social">
                 <a href="#"><i style="color:#0A66C2" class="fa-brands fa-linkedin"></i></a>
                 <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i style="color:white" class="fa-solid fa-envelope"></i></a> 
+                <a href="#"><i class="fa-solid fa-envelope"></i></a> 
             </div>
             <hr>
             <div class="footer__content__copyright">
@@ -95,6 +119,7 @@
         
 
     </footer>
+
     <script type="module" src="/js/index.js"></script>
 </body>
-</html>
+</html>    
