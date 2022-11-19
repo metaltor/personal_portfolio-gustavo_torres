@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me - Gustavo Torres Navarro</title>
+    <link rel="shortcut icon" href="img/logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7eb663c96c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="img/logo-white.png" alt="Logotype for Gustavo Torres" />
+        </a>
+      </div>
+
+      <div id="button-menu" class="header__button-menu">
+        <button aria-label="open menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <nav id="nav-bar" class="header__nav-bar">
+        <ul>
+          <li>
+            <a class="navbar-link" href="about-me.html">About me</a>
+          </li>
+          <li>
+            <a class="navbar-link" href="languages.html">Languages</a>
+          </li>
+          <li><a class="navbar-link" href="tools.html">Tools</a></li>
+          <li>
+            <a class="navbar-link" href="projects.html">Projects</a>
+          </li>
+          <li>
+            <a class="navbar-link" href="contact.html">Contact me</a>
+          </li>
+        </ul>
+        <img
+          id="nav-bar__cartoon"
+          src=""
+          alt="me like cartoon search someting"
+        />
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="main__contact__container" id="contact">
+        <div class="main__contact">
+          <div class="main__contact__content flipInY">
+            <div class="main__contact__content__image">
+              <img src="img/crystal-ball.png" width="100px" alt="" />
+            </div>
+
+            <div class="main__contact__content__text">
+              <h2>Are you interested in hiring me?</h2>
+            </div>
+          </div>
+
+          <form action="/" class="flipInX">
+            <h2 class="dance-h">
+              <span>C</span><span>o</span><span>n</span><span>t</span
+              ><span>a</span><span>c</span><span>t</span> <span> </span
+              ><span>m</span><span>e</span>
+            </h2>
+
+            <div class="input-group half-input">
+              <input
+                required
+                type="text"
+                name="text"
+                autocomplete="off"
+                class="input"
+              />
+              <label class="user-label">Name:</label>
+            </div>
+
+            <div class="input-group half-input">
+              <input
+                required
+                type="email"
+                name="text"
+                autocomplete="off"
+                class="input"
+              />
+              <label class="user-label">Email:</label>
+            </div>
+
+            <div class="input-group">
+              <input
+                required
+                type="text"
+                name="text"
+                autocomplete="off"
+                class="input"
+              />
+              <label class="user-label">Subject:</label>
+            </div>
+            <div class="input-group">
+              <textarea
+                required
+                type="text"
+                name="text"
+                autocomplete="off"
+                class="input"
+              ></textarea>
+              <label class="user-label">Message...</label>
+            </div>
+
+            <div class="form-button">
+              <button class="button">Send message!</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer__container">
+      <div class="circle-top"></div>
+      <div class="circle-bottom"></div>
+      <div class="footer__content">
+        <div class="footer__content__image">
+          <img src="img/finger-crossed.png" alt="" />
+        </div>
+        <div class="footer__content__phrase">
+          <p>Living, learning, & leveling up one day at a time.</p>
+        </div>
+        <div class="footer__content__social">
+          <a target="_blank" href="https://www.linkedin.com/in/gustavotorresnavarro/"
+            ><i style="color: #0a66c2" class="fa-brands fa-linkedin"></i
+          ></a>
+          <a target="_blank" href="https://github.com/metaltor"><i class="fa-brands fa-github"></i></a>
+          <a target="_blank" href="mailto:gtn.280693@gmail.com"
+            ><i style="color: white" class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+        <hr />
+        <div class="footer__content__copyright">
+          <p>
+            <span><i class="fa-regular fa-hand-spock"></i></span> Handcrafted by
+            metaltor <span><i class="fa-regular fa-copyright"></i></span> 2022
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="share">
+      <i class="fa-solid fa-download"></i>
+    </div>
+    <div class="one">
+      <a target="_blank" href="pdf/Profile.pdf"
+        ><i style="color: white" class="fa-regular fa-file-pdf"></i
+      ></a>
+    </div>
+
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>

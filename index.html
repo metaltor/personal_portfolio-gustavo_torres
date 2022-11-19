@@ -1,136 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/img/logo.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logo.png" />
     <title>Web Developer- Gustavo Torres Navarro</title>
-    <link rel="stylesheet" href="css/style.css">
-    
-    <script src="https://kit.fontawesome.com/7eb663c96c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+
     <script
-        src="https://code.jquery.com/jquery-3.6.1.min.js"
-        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-        crossorigin="anonymous"></script>
-    
-</head>
-<body>
+      src="https://kit.fontawesome.com/7eb663c96c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header class="header">
-        <div class="header__logo">
-            <a href="index.html"> 
-                <img src="img/logo-white.png" alt="Logotype for Gustavo Torres">
-            </a>
-        </div>
-        
-        <div id="button-menu" class="header__button-menu">
-            <button aria-label="open menu">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-        </div>
-        
-        <nav id="nav-bar" class="header__nav-bar">
-            
-            <ul >
-                <li ><a class="navbar-link" href="html/about-me.html">About me</a></li>
-                <li><a class="navbar-link" href="html/languages.html">Languages</a></li>
-                <li><a class="navbar-link" href="html/tools.html">Tools</a></li>
-                <li><a class="navbar-link" href="html/projects.html">Projects</a></li>
-                <li><a class="navbar-link" href="html/contact.html">Contact me</a></li>
-            </ul>
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="img/logo-white.png" alt="Logotype for Gustavo Torres" />
+        </a>
+      </div>
 
-            
-            <div class="switch-theme">
-                <div class="main-wrapper">
-                    <div class="text" id="light-theme-text">Light</div>
-                    <!-- BEGIN :: theme switch wrapper-->
-                    <div class="theme-switch-wrapper">
-                      <label for="theme-btn">
-                        <input type="checkbox" id="theme-btn">
-                        <div class="slider-wrapper">
-                          <div class="theme-btn-slider"></div>
-                          <!-- BEGIN :: Stars -->
-                          <span class="star star-1"></span>
-                          <span class="star star-2"></span>
-                          <span class="star star-3"></span>
-                          <span class="star star-4"></span>
-                          <span class="star star-5"></span>
-                          <span class="star star-6"></span>
-                          <!-- END :: Stars -->
-                        </div>
-                      </label>
-                    </div>
-                    <!-- END :: theme switch wrapper -->
-                    <div class="text disabled" id="dark-theme-text">Dark</div>
-                  </div>
-                  <!-- END :: main wrapper -->
-            </div>
+      <div id="button-menu" class="header__button-menu">
+        <button aria-label="open menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
 
+      <nav id="nav-bar" class="header__nav-bar">
+        <ul>
+          <li><a class="navbar-link" href="about-me.html">About me</a></li>
+          <li>
+            <a class="navbar-link" href="languages.html">Languages</a>
+          </li>
+          <li><a class="navbar-link" href="tools.html">Tools</a></li>
+          <li><a class="navbar-link" href="projects.html">Projects</a></li>
+          <li>
+            <a class="navbar-link" href="contact.html">Contact me</a>
+          </li>
+        </ul>
 
-            <img id="nav-bar__cartoon" src= "" alt="me like cartoon search someting">
-        </nav>
-    </header>
-    
-    <main class="main">
-
-        <div class="main__presentation__container" >
-            <section class="main__presentation" id="presentation">
-                <div class="main__presentation__img flipInY">
-                    <img class="backInDown" id="image" src="img/hilaptop.png" alt="Me like cartoon say hi">
+        <div class="switch-theme">
+          <div class="main-wrapper">
+            <div class="text" id="light-theme-text">Light</div>
+            <!-- BEGIN :: theme switch wrapper-->
+            <div class="theme-switch-wrapper">
+              <label for="theme-btn">
+                <input type="checkbox" id="theme-btn" />
+                <div class="slider-wrapper">
+                  <div class="theme-btn-slider"></div>
+                  <!-- BEGIN :: Stars -->
+                  <span class="star star-1"></span>
+                  <span class="star star-2"></span>
+                  <span class="star star-3"></span>
+                  <span class="star star-4"></span>
+                  <span class="star star-5"></span>
+                  <span class="star star-6"></span>
+                  <!-- END :: Stars -->
                 </div>
-                    <article class="main__presentation__content">
-                        <div class="type-js-1">
-                            <h2 class="text-type-1">Hi,</h2>
-                        </div>
-                        <div class="type-js-2">
-                            <h2 class="text-type-2">I'm Gustavo,</h2>
-                        </div>
-                        <div class="type-js-3">
-                            <h1 class="text-type-3">web developer</h1>
-                        </div>
-                        <h1 class="showme"><span>Front End Dev. / Full Stack Dev. in Training</span></h1>
-                    </article>
-                  
-                    <div class="main__presentation__button-container ">
-                       <a href="html/contact.html"><button class="button backInLeft">Contact me!</button></a> 
-                    </div>
-                
-            </section>
+              </label>
+            </div>
+            <!-- END :: theme switch wrapper -->
+            <div class="text disabled" id="dark-theme-text">Dark</div>
+          </div>
+          <!-- END :: main wrapper -->
         </div>
 
+        <img
+          id="nav-bar__cartoon"
+          src=""
+          alt="me like cartoon search someting"
+        />
+      </nav>
+    </header>
 
-    </main> 
+    <main class="main">
+      <div class="main__presentation__container">
+        <section class="main__presentation" id="presentation">
+          <div class="main__presentation__img flipInY">
+            <img
+              class="backInDown"
+              id="image"
+              src="img/hilaptop.png"
+              alt="Me like cartoon say hi"
+            />
+          </div>
+          <article class="main__presentation__content">
+            <div class="type-js-1">
+              <h2 class="text-type-1">Hi,</h2>
+            </div>
+            <div class="type-js-2">
+              <h2 class="text-type-2">I'm Gustavo,</h2>
+            </div>
+            <div class="type-js-3">
+              <h1 class="text-type-3">web developer</h1>
+            </div>
+            <h1 class="showme">
+              <span>Front End Dev. / Full Stack Dev. in Training</span>
+            </h1>
+          </article>
+
+          <div class="main__presentation__button-container">
+            <a href="contact.html"
+              ><button class="button backInLeft">Contact me!</button></a
+            >
+          </div>
+        </section>
+      </div>
+    </main>
 
     <footer class="footer__container">
         <div class="circle-top"></div>
         <div class="circle-bottom"></div>
         <div class="footer__content">
-            <div class="footer__content__image">
-                <img src="img/finger-crossed.png" alt="">
-            </div>
-            <div class="footer__content__phrase">
-                <p>Living, learning, & leveling up one day at a time.</p>
-            </div>
-            <div class="footer__content__social">
-                <a href="#"><i style="color:#0A66C2" class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i style="color:white" class="fa-solid fa-envelope"></i></a> 
-            </div>
-            <hr>
-            <div class="footer__content__copyright">
-                <p><span><i class="fa-regular fa-hand-spock"></i></span> Handcrafted by metaltor <span><i class="fa-regular fa-copyright"></i></span></i> 2022</p>
-            </div>
+          <div class="footer__content__image">
+            <img src="img/finger-crossed.png" alt="" />
+          </div>
+          <div class="footer__content__phrase">
+            <p>Living, learning, & leveling up one day at a time.</p>
+          </div>
+          <div class="footer__content__social">
+            <a target="_blank" href="https://www.linkedin.com/in/gustavotorresnavarro/"
+              ><i style="color: #0a66c2" class="fa-brands fa-linkedin"></i
+            ></a>
+            <a target="_blank" href="https://github.com/metaltor"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href="mailto:gtn.280693@gmail.com"
+              ><i style="color: white" class="fa-solid fa-envelope"></i
+            ></a>
+          </div>
+          <hr />
+          <div class="footer__content__copyright">
+            <p>
+              <span><i class="fa-regular fa-hand-spock"></i></span> Handcrafted by
+              metaltor <span><i class="fa-regular fa-copyright"></i></span> 2022
+            </p>
+          </div>
         </div>
-        
-
-    </footer>
-
-    <div class="share">
+      </footer>
+  
+      <div class="share">
         <i class="fa-solid fa-download"></i>
       </div>
-        <div class="one">
-           <a target="_blank" href="pdf/Profile.pdf"><i style="color:white" class="fa-regular fa-file-pdf"></i></a> 
-        </div>
+      <div class="one">
+        <a target="_blank" href="pdf/Profile.pdf"
+          ><i style="color: white" class="fa-regular fa-file-pdf"></i
+        ></a>
+      </div>
     <script type="module" src="js/index.js"></script>
-</body>
+  </body>
 </html>
