@@ -35,13 +35,13 @@
                 font-size: 8vw;
                 padding: 1rem 0 0.5rem 0;
                 font-weight: 900;
-                color: $font-color-h2-content;
+                color: var(--font-color-h2-content);
             }
             p{
                 font-size: 6vw;
                 font-weight: 600;
                 letter-spacing: -1px;
-                color: $font-color-p-text-area;
+                color: var(--font-color-p-text-area);
             }
             
             }

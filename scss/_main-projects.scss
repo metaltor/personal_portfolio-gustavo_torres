@@ -120,12 +120,12 @@
             align-items: center;
             padding: 2.2em;
             position: absolute;
-            background-color: $bg-color-project-element-description;
+            background-color: var(--bg-color-project-element-description);
             p  {
                 font-size: 4.5vw;
                 
                 text-align: justify;
-                color :$text-color-projects-description;
+                color :var(--text-color-projects-description);
             }
 
             &__button{
@@ -135,13 +135,13 @@
                 
                
                 a{ 
-                    background-color: $bg-color-projects-button;
+                    background-color: var(--bg-color-projects-button);
                     border-radius: 10px;
-                    border: 2px solid $border-color-projects-button;
+                    border: 2px solid var(--border-color-projects-button);
                     font-size: 7vw;
                     padding: 0.5rem;
                     i{
-                        color: $icon-color-projects-button;
+                        color: var(--icon-color-projects-button);
                     }
                 }
             }

@@ -19,13 +19,13 @@
             padding-left: 0.7rem;
             width: 100% ;
                 h1{
-                    color: $font-color-subtitle-presentation;  
+                    color: var(--font-color-subtitle-presentation);  
                 }
             div.type-js-1, div.type-js-2, div.type-js-3{
                
                 
                 h1,h2,h3,h4{
-                color: $font-color-content-presentation;
+                color: var(--font-color-content-presentation);
                 font-size: 12vw;
             }
             }
@@ -50,7 +50,7 @@
             width: 80%;
             border-radius: 50%;
             text-align: center;
-            background-color: $bg-color-img-presentation;
+            background-color: var(--bg-color-img-presentation);
             img{
                 width: 100%;  
             } 

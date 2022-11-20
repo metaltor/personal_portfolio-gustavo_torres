@@ -119,7 +119,7 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
-        background-color: $bg-color-tools-grid_element;
+        background-color: var(--bg-color-tools-grid_element);
         padding: 1rem;
         // border-radius: 1rem;
         h3{

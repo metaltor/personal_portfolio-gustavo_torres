@@ -2,7 +2,7 @@
 
 .footer__content{
     
-    background-color: $bg-color-footer;
+    background-color: var(--bg-color-footer);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +15,7 @@
         margin-top: -20vw;
         z-index: 10;
         @include main-section-image;
-        background-color: $bg-color-footer-image;
+        background-color: var(--bg-color-footer-image);
         border-radius: 50%;
         width: 40%;
     }
@@ -24,7 +24,7 @@
         text-align: center;
         padding: 0rem 1rem 0rem 1rem;
         font-size: 6vw;
-        color: $font-color-footer-phrase;
+        color: var(--font-color-footer-phrase);
     }
 
     &__social{
@@ -35,7 +35,7 @@
 
         a{
             font-size: 12vw;
-            color: $icon-color-footer-social;
+            color: var(--icon-color-footer-social);
 
             @media(min-height:500px){
             font-size: 8vw;
@@ -47,7 +47,7 @@
     &__copyright{
         font-size: 4vw;
         letter-spacing: 2px;
-        color: $font-color-footer-copyrigth;
+        color: var(--font-color-footer-copyrigth);
     }
     @media (max-width: 900px)and (orientation: landscape){
         z-index: 10;
@@ -135,7 +135,7 @@
     border: none;
     height: 20%;
     width: 50%;
-    background-color: $bg-color-form-darknes;
+    background-color: var(--bg-color-footer);
     position: absolute;
     border-top-right-radius:100% ;
     top : -20%;
@@ -146,7 +146,7 @@
     border: none;
     height: 20%;
     width: 50%;
-    background-color: $bg-color-form-whitenes;
+    background-color: var(--bg-color-primary);
     position: absolute;
     border-bottom-left-radius:100% ;
     right: 0;

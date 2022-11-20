@@ -32,13 +32,13 @@
             font-size:11vw;
             font-weight: 900;
             margin-bottom: 0.5rem;
-            color: $font-color-legend-form-contact;
+            color: var(--font-color-legend-form-contact);
         }
         .input-group{
             width: 100%;
             input, textarea{
             
-                background-color: $bg-color-contact-input;
+                background-color: var(--bg-color-contact-input);
                 border-radius: 10px;
                 font-size: 4vw;
             }

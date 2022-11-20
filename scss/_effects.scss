@@ -12,7 +12,7 @@
     right: -5px;
     width: 2px;
     /* Change colour of Cursor Here */
-    background-color: black;
+    background-color: var(--effect-cursor-typer);
     z-index: 1;
     animation: flash 0.5s none infinite alternate;
   }

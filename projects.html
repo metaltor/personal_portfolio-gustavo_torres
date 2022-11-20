@@ -1,198 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Projects - Gustavo Torres Navarro</title>
-    <link rel="shortcut icon" href="img/logo.png">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/7eb663c96c.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7eb663c96c.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://code.jquery.com/jquery-3.6.1.min.js"
       integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
       crossorigin="anonymous"
     ></script>
-</head>
-<body>
-    
+  </head>
+  <body>
     <header class="header">
-        <div class="header__logo">
-            <a href="index.html"> 
-                <img src="img/logo-white.png" alt="Logotype for Gustavo Torres">
-            </a>
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="img/logo-white.png" alt="Logotype for Gustavo Torres" />
+        </a>
+      </div>
+
+      <div id="button-menu" class="header__button-menu">
+        <button aria-label="open menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <nav id="nav-bar" class="header__nav-bar">
+        <ul>
+          <li><a class="navbar-link" href="about-me.html">About me</a></li>
+          <li><a class="navbar-link" href="languages.html">Languages</a></li>
+          <li><a class="navbar-link" href="tools.html">Tools</a></li>
+          <li><a class="navbar-link" href="projects.html">Projects</a></li>
+          <li><a class="navbar-link" href="contact.html">Contact me</a></li>
+        </ul>
+        <div class="switch-theme">
+          <div class="main-wrapper">
+            <div class="text" id="light-theme-text">Light</div>
+            <!-- BEGIN :: theme switch wrapper-->
+            <div class="theme-switch-wrapper">
+              <label for="theme-btn">
+                <input type="checkbox" id="theme-btn" />
+                <div class="slider-wrapper">
+                  <div class="theme-btn-slider"></div>
+                  <!-- BEGIN :: Stars -->
+                  <span class="star star-1"></span>
+                  <span class="star star-2"></span>
+                  <span class="star star-3"></span>
+                  <span class="star star-4"></span>
+                  <span class="star star-5"></span>
+                  <span class="star star-6"></span>
+                  <!-- END :: Stars -->
+                </div>
+              </label>
+            </div>
+            <!-- END :: theme switch wrapper -->
+            <div class="text disabled" id="dark-theme-text">Dark</div>
+          </div>
+          <!-- END :: main wrapper -->
         </div>
-        
-        <div id="button-menu" class="header__button-menu">
-            <button aria-label="open menu">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-        </div>
-        
-        <nav id="nav-bar" class="header__nav-bar">
-            
-            <ul >
-                <li ><a class="navbar-link" href="about-me.html">About me</a></li>
-                <li><a class="navbar-link" href="languages.html">Languages</a></li>
-                <li><a class="navbar-link" href="tools.html">Tools</a></li>
-                <li><a class="navbar-link" href="projects.html">Projects</a></li>
-                <li><a class="navbar-link" href="contact.html">Contact me</a></li>
-            </ul>
-            <img id="nav-bar__cartoon" src= "" alt="me like cartoon search someting">
-        </nav>
+        <img
+          id="nav-bar__cartoon"
+          src=""
+          alt="me like cartoon search someting"
+        />
+      </nav>
     </header>
-    
+
     <main class="main">
-        
-        <section class="main__projects__container" id="projects">
-            <div class=" main__projects">
-                
-                <div class="main__projects__content"> 
-                    <div class="main__projects__content__image">
-                        <img src="img/studying.png" width="100px" alt="">
-                    </div> 
-                    <div class="main__projects__content__text">
-                        <h2 class="dance-h">
-                            <span>M</span><span>y</span> <span> </span><span>R</span><span>e</span><span>c</span><span>e</span><span>n</span><span>t</span><span>s</span> <span>P</span><span>r</span><span>o</span><span>j</span><span>e</span><span>c</span><span>t</span><span>s</span>
-                        </h2>
-                    <p>A small selection of my projects.</p>
-                    </div>
+      <section class="main__projects__container" id="projects">
+        <div class="main__projects">
+          <div class="main__projects__content">
+            <div class="main__projects__content__image">
+              <img src="img/studying.png" width="100px" alt="" />
+            </div>
+            <div class="main__projects__content__text">
+              <h2 class="dance-h">
+                <span>M</span><span>y</span> <span> </span><span>R</span
+                ><span>e</span><span>c</span><span>e</span><span>n</span
+                ><span>t</span><span>s</span> <span>P</span><span>r</span
+                ><span>o</span><span>j</span><span>e</span><span>c</span
+                ><span>t</span><span>s</span>
+              </h2>
+              <p>A small selection of my projects.</p>
+            </div>
+          </div>
+
+          <div class="main__projects__grid projects__grid">
+            <div class="projects__grid__element">
+              <div class="projects__grid__element__image">
+                <div class="fake__navigator">
+                  <h2>Hangman game</h2>
+                  <div class="fake__navigator__icons">
+                    <i class="fa-solid fa-minus min"></i>
+                    <i class="fa-regular fa-square max"></i>
+                    <i class="fa-solid fa-xmark close"></i>
+                  </div>
                 </div>
 
-                <div class="main__projects__grid projects__grid">
+                <img
+                  src="img/projects/ahoracado-capture.PNG"
+                  alt=""
+                  width="100px"
+                />
+              </div>
 
-                    <div class="projects__grid__element ">
-                        <div class="projects__grid__element__image">
-                            <div class="fake__navigator">
-                                <h2>Hangman game</h2>
-                                <div class="fake__navigator__icons">
-                                    <i class="fa-solid fa-minus  min"></i>
-                                    <i class="fa-regular fa-square max"></i>
-                                    <i class="fa-solid fa-xmark close"></i>
+              <div class="projects__grid__element__description 0">
+                <p>Hangman game in JS, HTML and CSS.</p>
+                <div class="projects__grid__element__description__button">
+                  <a class="button-desc" href="">
+                    <i class="fa-solid fa-globe"></i>
+                  </a>
+                  <a class="button-desc" href="">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
 
-                                </div>
-                                
-                            </div>
-                        
-                            <img src="img/projects/ahoracado-capture.PNG" alt="" width="100px">
-                        </div>
-                        
-                        <div class="projects__grid__element__description 0">
-                            
-                            <p>Hangman game in JS, HTML and CSS. </p>
-                            <div class="projects__grid__element__description__button">
-                            <a class="button-desc" href=""> <i class="fa-solid fa-globe"></i> </a> 
-                            <a class="button-desc" href=""> <i class="fa-brands fa-github"></i> </a> 
-                            </div>
-                        </div>
-                    </div>
+            <div class="projects__grid__element">
+              <div class="projects__grid__element__image">
+                <div class="fake__navigator">
+                  <h2>Personal Porfolio</h2>
+                  <div class="fake__navigator__icons">
+                    <i class="fa-solid fa-minus min"></i>
+                    <i class="fa-regular fa-square max"></i>
+                    <i class="fa-solid fa-xmark close"></i>
+                  </div>
+                </div>
 
-                    <div class="projects__grid__element ">
-                        <div class="projects__grid__element__image">
-                            <div class="fake__navigator">
-                                <h2>Personal Porfolio</h2>
-                                <div class="fake__navigator__icons">
-                                    <i class="fa-solid fa-minus  min"></i>
-                                    <i class="fa-regular fa-square max"></i>
-                                    <i class="fa-solid fa-xmark close"></i>
+                <img
+                  src="img/projects/porfolio-capture.PNG"
+                  alt=""
+                  width="100px"
+                />
+              </div>
 
-                                </div>
-                                
-                            </div>
-                        
-                            <img src="img/projects/porfolio-capture.PNG" alt="" width="100px">
-                        </div>
-                        
-                        <div class="projects__grid__element__description 0">
-                            
-                            <p>Personal portfolio developed in JS, HTML, CSS, SASS, JQuery and more. </p>
-                            <div class="projects__grid__element__description__button">
-                            <a class="button-desc" href=""> <i class="fa-solid fa-globe"></i> </a> 
-                            <a class="button-desc" href=""> <i class="fa-brands fa-github"></i> </a> 
-                            </div>
-                        </div>
-                    </div>
+              <div class="projects__grid__element__description 0">
+                <p>
+                  Personal portfolio developed in JS, HTML, CSS, SASS, JQuery
+                  and more.
+                </p>
+                <div class="projects__grid__element__description__button">
+                  <a class="button-desc" href="">
+                    <i class="fa-solid fa-globe"></i>
+                  </a>
+                  <a class="button-desc" href="">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
 
-                    <div class="projects__grid__element ">
-                        <div class="projects__grid__element__image">
-                            <div class="fake__navigator">
-                                <h2>text encryptor</h2>
-                                <div class="fake__navigator__icons">
-                                    <i class="fa-solid fa-minus  min"></i>
-                                    <i class="fa-regular fa-square max"></i>
-                                    <i class="fa-solid fa-xmark close"></i>
+            <div class="projects__grid__element">
+              <div class="projects__grid__element__image">
+                <div class="fake__navigator">
+                  <h2>text encryptor</h2>
+                  <div class="fake__navigator__icons">
+                    <i class="fa-solid fa-minus min"></i>
+                    <i class="fa-regular fa-square max"></i>
+                    <i class="fa-solid fa-xmark close"></i>
+                  </div>
+                </div>
 
-                                </div>
-                                
-                            </div>
-                        
-                            <img src="img/projects/encriptador-capture.PNG" alt="" width="100px">
-                        </div>
-                        
-                        <div class="projects__grid__element__description 0">
-                            
-                            <p>Text encryptor developed in JS, HTML and CSS. </p>
-                            <div class="projects__grid__element__description__button">
-                            <a class="button-desc" href=""> <i class="fa-solid fa-globe"></i> </a> 
-                            <a class="button-desc" href=""> <i class="fa-brands fa-github"></i> </a> 
-                            </div>
-                        </div>
-                    </div>
+                <img
+                  src="img/projects/encriptador-capture.PNG"
+                  alt=""
+                  width="100px"
+                />
+              </div>
 
-                    <div class="projects__grid__element ">
-                        <div class="projects__grid__element__image">
-                            <div class="fake__navigator">
-                                <h2>Memory game</h2>
-                                <div class="fake__navigator__icons">
-                                    <i class="fa-solid fa-minus  min"></i>
-                                    <i class="fa-regular fa-square max"></i>
-                                    <i class="fa-solid fa-xmark close"></i>
+              <div class="projects__grid__element__description 0">
+                <p>Text encryptor developed in JS, HTML and CSS.</p>
+                <div class="projects__grid__element__description__button">
+                  <a class="button-desc" href="">
+                    <i class="fa-solid fa-globe"></i>
+                  </a>
+                  <a class="button-desc" href="">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
 
-                                </div>
-                                
-                            </div>
-                        
-                            <img src="img/projects/memotest-capture.PNG" alt="" width="100px">
-                        </div>
-                        
-                        <div class="projects__grid__element__description 0">
-                            
-                            <p>Memory game developed in JS, HTML and CSS. </p>
-                            <div class="projects__grid__element__description__button">
-                            <a href=""> <i class="fa-solid fa-globe"></i> </a> 
-                            <a href=""> <i class="fa-brands fa-github"></i> </a> 
-                            </div>
-                        </div>
-                    </div>
+            <div class="projects__grid__element">
+              <div class="projects__grid__element__image">
+                <div class="fake__navigator">
+                  <h2>Memory game</h2>
+                  <div class="fake__navigator__icons">
+                    <i class="fa-solid fa-minus min"></i>
+                    <i class="fa-regular fa-square max"></i>
+                    <i class="fa-solid fa-xmark close"></i>
+                  </div>
+                </div>
 
-                    <div class="projects__grid__element ">
-                        <div class="projects__grid__element__image">
-                            <div class="fake__navigator">
-                                <h2>juego ahoracado</h2>
-                                <div class="fake__navigator__icons">
-                                    <i class="fa-solid fa-minus  min"></i>
-                                    <i class="fa-regular fa-square max"></i>
-                                    <i class="fa-solid fa-xmark close"></i>
+                <img
+                  src="img/projects/memotest-capture.PNG"
+                  alt=""
+                  width="100px"
+                />
+              </div>
 
-                                </div>
-                                
-                            </div>
-                        
-                            <img src="img/projects/simon_dice-capture.PNG" alt="" width="100px">
-                        </div>
-                        
-                        <div class="projects__grid__element__description 0">
-                            
-                            <p>Game "Simon says" developed in JS, HTML, CSS and Bootstrap.</p>
-                            <div class="projects__grid__element__description__button">
-                            <a class="button-desc" href=""> <i class="fa-solid fa-globe"></i> </a> 
-                            <a class="button-desc" href=""> <i class="fa-brands fa-github"></i> </a> 
-                            </div>
-                        </div>
-                    </div>
+              <div class="projects__grid__element__description 0">
+                <p>Memory game developed in JS, HTML and CSS.</p>
+                <div class="projects__grid__element__description__button">
+                  <a href=""> <i class="fa-solid fa-globe"></i> </a>
+                  <a href=""> <i class="fa-brands fa-github"></i> </a>
+                </div>
+              </div>
+            </div>
 
+            <div class="projects__grid__element">
+              <div class="projects__grid__element__image">
+                <div class="fake__navigator">
+                  <h2>juego ahoracado</h2>
+                  <div class="fake__navigator__icons">
+                    <i class="fa-solid fa-minus min"></i>
+                    <i class="fa-regular fa-square max"></i>
+                    <i class="fa-solid fa-xmark close"></i>
+                  </div>
+                </div>
 
-                    <!-- <div class="projects__grid__element ">
+                <img
+                  src="img/projects/simon_dice-capture.PNG"
+                  alt=""
+                  width="100px"
+                />
+              </div>
+
+              <div class="projects__grid__element__description 0">
+                <p>
+                  Game "Simon says" developed in JS, HTML, CSS and Bootstrap.
+                </p>
+                <div class="projects__grid__element__description__button">
+                  <a class="button-desc" href="">
+                    <i class="fa-solid fa-globe"></i>
+                  </a>
+                  <a class="button-desc" href="">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="projects__grid__element ">
                         <div class="projects__grid__element__image">
                             <div class="fake__navigator">
                                 <h2>juego ahoracado</h2>
@@ -217,54 +273,53 @@
                             </div>
                         </div>
                     </div> -->
-
-
-                </div>
-
-            </div>
-        </section>
-
-
-    </main> 
-
-    <footer class="footer__container">
-        <div class="circle-top"></div>
-        <div class="circle-bottom"></div>
-        <div class="footer__content">
-          <div class="footer__content__image">
-            <img src="img/finger-crossed.png" alt="" />
-          </div>
-          <div class="footer__content__phrase">
-            <p>Living, learning, & leveling up one day at a time.</p>
-          </div>
-          <div class="footer__content__social">
-            <a target="_blank" href="https://www.linkedin.com/in/gustavotorresnavarro/"
-              ><i style="color: #0a66c2" class="fa-brands fa-linkedin"></i
-            ></a>
-            <a target="_blank" href="https://github.com/metaltor"><i class="fa-brands fa-github"></i></a>
-            <a href="mailto:gtn.280693@gmail.com"
-              ><i style="color: white" class="fa-solid fa-envelope"></i
-            ></a>
-          </div>
-          <hr />
-          <div class="footer__content__copyright">
-            <p>
-              <span><i class="fa-regular fa-hand-spock"></i></span> Handcrafted by
-              metaltor <span><i class="fa-regular fa-copyright"></i></span> 2022
-            </p>
           </div>
         </div>
-      </footer>
-  
-      <div class="share">
-        <i class="fa-solid fa-download"></i>
+      </section>
+    </main>
+
+    <footer class="footer__container">
+      <div class="circle-top"></div>
+      <div class="circle-bottom"></div>
+      <div class="footer__content">
+        <div class="footer__content__image">
+          <img src="img/finger-crossed.png" alt="" />
+        </div>
+        <div class="footer__content__phrase">
+          <p>Living, learning, & leveling up one day at a time.</p>
+        </div>
+        <div class="footer__content__social">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/gustavotorresnavarro/"
+            ><i style="color: #0a66c2" class="fa-brands fa-linkedin"></i
+          ></a>
+          <a target="_blank" href="https://github.com/metaltor"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="mailto:gtn.280693@gmail.com"
+            ><i style="color: white" class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+        <hr />
+        <div class="footer__content__copyright">
+          <p>
+            <span><i class="fa-regular fa-hand-spock"></i></span> Handcrafted by
+            metaltor <span><i class="fa-regular fa-copyright"></i></span> 2022
+          </p>
+        </div>
       </div>
-      <div class="one">
-        <a target="_blank" href="pdf/Profile.pdf"
-          ><i style="color: white" class="fa-regular fa-file-pdf"></i
-        ></a>
-      </div>
+    </footer>
+
+    <div class="share">
+      <i class="fa-solid fa-download"></i>
+    </div>
+    <div class="one">
+      <a target="_blank" href="pdf/Profile.pdf"
+        ><i style="color: white" class="fa-regular fa-file-pdf"></i
+      ></a>
+    </div>
 
     <script type="module" src="js/index.js"></script>
-</body>
-</html>    
+  </body>
+</html>
