@@ -39,7 +39,7 @@
         .input-group{
             width: 100%;
             input, textarea{
-            
+                color:var(--font-color-input-contact);
                 background-color: var(--bg-color-contact-input);
                 border-radius: 10px;
                 font-size: 4vw;

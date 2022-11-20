@@ -85,7 +85,7 @@ $color-dark-background:#1d1b1d;
 --font-color-h2-inage-contact:black;
 //project
 --font-color-project-element-text:black;
-
+--font-color-input-contact: black;
 
 //white
 //components
@@ -110,7 +110,7 @@ $color-dark-background:#1d1b1d;
     --switch-text-color: #000000;
     --switch-disabled-text-color: transparent;
     
-
+--shadow-color-card: rgba(0, 0, 0, 0.6);
 --bg-color-fake_navigator:#ddd;
 --shadow-color-input:rgba(0,0,0,0.7);
 --border-color-progress_bar:#e6f3fa;
@@ -162,7 +162,7 @@ $color-dark-background:#1d1b1d;
     //presentantion
     --font-color-content-presentation: #851ce1;
     //project
-    --text-color-projects-description : #851ce1;
+    --text-color-projects-description : white;
     //contact
     --font-color-legend-form-contact:#851ce1;
     //footer
@@ -201,7 +201,7 @@ $color-dark-background:#1d1b1d;
 
     //black
     //components
-    --font-color-fake_navigator:black;
+    --font-color-fake_navigator:white;
     //efects
     --effect-cursor-typer:white;
     //footer
@@ -211,6 +211,7 @@ $color-dark-background:#1d1b1d;
     --link-color-about : white;
     //contact
     --font-color-h2-inage-contact:white;
+    --font-color-input-contact:white;
     //project
     --font-color-project-element-text:white;
 
@@ -237,18 +238,18 @@ $color-dark-background:#1d1b1d;
         --switch-text-color: #FFF;
         --switch-disabled-text-color: transparent;
         
-
-    --bg-color-fake_navigator:#ddd;
+    --shadow-color-card:rgba(255, 255, 255, 0.6);
+    --bg-color-fake_navigator:rgb(97, 97, 97);
     --shadow-color-input:rgba(0,0,0,0.7);
     --border-color-progress_bar:#e6f3fa;
     //globals
-    --hr-color:rgba(128, 128, 128, 0.2);
-    --shadow-boton-pdf: rgba(0,0,0,.5);
+    --hr-color:rgba(197, 197, 197, 0.2);
+    --shadow-boton-pdf: rgba(255, 255, 255, 0.5);
     --bg-color-pdf-button:#F70909;
     //presentation (listo)
     --font-color-subtitle-presentation: white;
     //projects
-    --bg-color-project-element-description: rgba(227,223,220, .8);
+    --bg-color-project-element-description: rgba(83, 82, 80, 0.8);
 
     //transparent
     //header
@@ -390,7 +391,7 @@ $color-dark-background:#1d1b1d;
 
 @mixin card {
     background-color: var(--bg-color-text-content);
-    box-shadow: 21px 21px 7px -7px rgba(0,0,0,0.6);
+    box-shadow: 21px 21px 7px -7px var(--shadow-color-card);
     padding: 1.5rem;
     border-radius: 2rem;
 

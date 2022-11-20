@@ -33,6 +33,7 @@
   --link-color-about: black;
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
+  --font-color-input-contact: black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -46,6 +47,7 @@
   --switch-color-stars: blue;
   --switch-text-color: #000000;
   --switch-disabled-text-color: transparent;
+  --shadow-color-card: rgba(0, 0, 0, 0.6);
   --bg-color-fake_navigator:#ddd;
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
@@ -71,7 +73,7 @@
   --color-font-pc-nav-bar: #851ce1;
   --bg-color-header-btn:#851ce1;
   --font-color-content-presentation: #851ce1;
-  --text-color-projects-description: #851ce1;
+  --text-color-projects-description: white;
   --font-color-legend-form-contact:#851ce1;
   --font-color-footer-phrase: #851ce1;
   --bg-color-progress_bar: #94a1b2;
@@ -88,12 +90,13 @@
   --bg-color-text-content: #020e33;
   --bg-color-tools-grid_element: #020e33;
   --bg-color-footer: #020e33;
-  --font-color-fake_navigator:black;
+  --font-color-fake_navigator:white;
   --effect-cursor-typer:white;
   --font-color-footer-copyrigth: white;
   --icon-color-footer-social:white;
   --link-color-about: white;
   --font-color-h2-inage-contact:white;
+  --font-color-input-contact:white;
   --font-color-project-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
@@ -108,14 +111,15 @@
   --switch-color-stars: rgb(231, 210, 22);
   --switch-text-color: #FFF;
   --switch-disabled-text-color: transparent;
-  --bg-color-fake_navigator:#ddd;
+  --shadow-color-card:rgba(255, 255, 255, 0.6);
+  --bg-color-fake_navigator:rgb(97, 97, 97);
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
-  --hr-color:rgba(128, 128, 128, 0.2);
-  --shadow-boton-pdf: rgba(0,0,0,.5);
+  --hr-color:rgba(197, 197, 197, 0.2);
+  --shadow-boton-pdf: rgba(255, 255, 255, 0.5);
   --bg-color-pdf-button:#F70909;
   --font-color-subtitle-presentation: white;
-  --bg-color-project-element-description: rgba(227,223,220, .8);
+  --bg-color-project-element-description: rgba(83, 82, 80, 0.8);
   --bg-color-header: transparent;
   --bg-color-pc-header: transparent;
   --bg-color-footer-image: transparent;
@@ -482,6 +486,7 @@ template {
   --link-color-about: black;
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
+  --font-color-input-contact: black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -495,6 +500,7 @@ template {
   --switch-color-stars: blue;
   --switch-text-color: #000000;
   --switch-disabled-text-color: transparent;
+  --shadow-color-card: rgba(0, 0, 0, 0.6);
   --bg-color-fake_navigator:#ddd;
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
@@ -520,7 +526,7 @@ template {
   --color-font-pc-nav-bar: #851ce1;
   --bg-color-header-btn:#851ce1;
   --font-color-content-presentation: #851ce1;
-  --text-color-projects-description: #851ce1;
+  --text-color-projects-description: white;
   --font-color-legend-form-contact:#851ce1;
   --font-color-footer-phrase: #851ce1;
   --bg-color-progress_bar: #94a1b2;
@@ -537,12 +543,13 @@ template {
   --bg-color-text-content: #020e33;
   --bg-color-tools-grid_element: #020e33;
   --bg-color-footer: #020e33;
-  --font-color-fake_navigator:black;
+  --font-color-fake_navigator:white;
   --effect-cursor-typer:white;
   --font-color-footer-copyrigth: white;
   --icon-color-footer-social:white;
   --link-color-about: white;
   --font-color-h2-inage-contact:white;
+  --font-color-input-contact:white;
   --font-color-project-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
@@ -557,14 +564,15 @@ template {
   --switch-color-stars: rgb(231, 210, 22);
   --switch-text-color: #FFF;
   --switch-disabled-text-color: transparent;
-  --bg-color-fake_navigator:#ddd;
+  --shadow-color-card:rgba(255, 255, 255, 0.6);
+  --bg-color-fake_navigator:rgb(97, 97, 97);
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
-  --hr-color:rgba(128, 128, 128, 0.2);
-  --shadow-boton-pdf: rgba(0,0,0,.5);
+  --hr-color:rgba(197, 197, 197, 0.2);
+  --shadow-boton-pdf: rgba(255, 255, 255, 0.5);
   --bg-color-pdf-button:#F70909;
   --font-color-subtitle-presentation: white;
-  --bg-color-project-element-description: rgba(227,223,220, .8);
+  --bg-color-project-element-description: rgba(83, 82, 80, 0.8);
   --bg-color-header: transparent;
   --bg-color-pc-header: transparent;
   --bg-color-footer-image: transparent;
@@ -689,6 +697,7 @@ p {
   --link-color-about: black;
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
+  --font-color-input-contact: black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -702,6 +711,7 @@ p {
   --switch-color-stars: blue;
   --switch-text-color: #000000;
   --switch-disabled-text-color: transparent;
+  --shadow-color-card: rgba(0, 0, 0, 0.6);
   --bg-color-fake_navigator:#ddd;
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
@@ -727,7 +737,7 @@ p {
   --color-font-pc-nav-bar: #851ce1;
   --bg-color-header-btn:#851ce1;
   --font-color-content-presentation: #851ce1;
-  --text-color-projects-description: #851ce1;
+  --text-color-projects-description: white;
   --font-color-legend-form-contact:#851ce1;
   --font-color-footer-phrase: #851ce1;
   --bg-color-progress_bar: #94a1b2;
@@ -744,12 +754,13 @@ p {
   --bg-color-text-content: #020e33;
   --bg-color-tools-grid_element: #020e33;
   --bg-color-footer: #020e33;
-  --font-color-fake_navigator:black;
+  --font-color-fake_navigator:white;
   --effect-cursor-typer:white;
   --font-color-footer-copyrigth: white;
   --icon-color-footer-social:white;
   --link-color-about: white;
   --font-color-h2-inage-contact:white;
+  --font-color-input-contact:white;
   --font-color-project-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
@@ -764,14 +775,15 @@ p {
   --switch-color-stars: rgb(231, 210, 22);
   --switch-text-color: #FFF;
   --switch-disabled-text-color: transparent;
-  --bg-color-fake_navigator:#ddd;
+  --shadow-color-card:rgba(255, 255, 255, 0.6);
+  --bg-color-fake_navigator:rgb(97, 97, 97);
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
-  --hr-color:rgba(128, 128, 128, 0.2);
-  --shadow-boton-pdf: rgba(0,0,0,.5);
+  --hr-color:rgba(197, 197, 197, 0.2);
+  --shadow-boton-pdf: rgba(255, 255, 255, 0.5);
   --bg-color-pdf-button:#F70909;
   --font-color-subtitle-presentation: white;
-  --bg-color-project-element-description: rgba(227,223,220, .8);
+  --bg-color-project-element-description: rgba(83, 82, 80, 0.8);
   --bg-color-header: transparent;
   --bg-color-pc-header: transparent;
   --bg-color-footer-image: transparent;
@@ -1269,6 +1281,7 @@ p {
   --link-color-about: black;
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
+  --font-color-input-contact: black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -1282,6 +1295,7 @@ p {
   --switch-color-stars: blue;
   --switch-text-color: #000000;
   --switch-disabled-text-color: transparent;
+  --shadow-color-card: rgba(0, 0, 0, 0.6);
   --bg-color-fake_navigator:#ddd;
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
@@ -1307,7 +1321,7 @@ p {
   --color-font-pc-nav-bar: #851ce1;
   --bg-color-header-btn:#851ce1;
   --font-color-content-presentation: #851ce1;
-  --text-color-projects-description: #851ce1;
+  --text-color-projects-description: white;
   --font-color-legend-form-contact:#851ce1;
   --font-color-footer-phrase: #851ce1;
   --bg-color-progress_bar: #94a1b2;
@@ -1324,12 +1338,13 @@ p {
   --bg-color-text-content: #020e33;
   --bg-color-tools-grid_element: #020e33;
   --bg-color-footer: #020e33;
-  --font-color-fake_navigator:black;
+  --font-color-fake_navigator:white;
   --effect-cursor-typer:white;
   --font-color-footer-copyrigth: white;
   --icon-color-footer-social:white;
   --link-color-about: white;
   --font-color-h2-inage-contact:white;
+  --font-color-input-contact:white;
   --font-color-project-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
@@ -1344,14 +1359,15 @@ p {
   --switch-color-stars: rgb(231, 210, 22);
   --switch-text-color: #FFF;
   --switch-disabled-text-color: transparent;
-  --bg-color-fake_navigator:#ddd;
+  --shadow-color-card:rgba(255, 255, 255, 0.6);
+  --bg-color-fake_navigator:rgb(97, 97, 97);
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
-  --hr-color:rgba(128, 128, 128, 0.2);
-  --shadow-boton-pdf: rgba(0,0,0,.5);
+  --hr-color:rgba(197, 197, 197, 0.2);
+  --shadow-boton-pdf: rgba(255, 255, 255, 0.5);
   --bg-color-pdf-button:#F70909;
   --font-color-subtitle-presentation: white;
-  --bg-color-project-element-description: rgba(227,223,220, .8);
+  --bg-color-project-element-description: rgba(83, 82, 80, 0.8);
   --bg-color-header: transparent;
   --bg-color-pc-header: transparent;
   --bg-color-footer-image: transparent;
@@ -1562,6 +1578,7 @@ p {
   --link-color-about: black;
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
+  --font-color-input-contact: black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -1575,6 +1592,7 @@ p {
   --switch-color-stars: blue;
   --switch-text-color: #000000;
   --switch-disabled-text-color: transparent;
+  --shadow-color-card: rgba(0, 0, 0, 0.6);
   --bg-color-fake_navigator:#ddd;
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
@@ -1600,7 +1618,7 @@ p {
   --color-font-pc-nav-bar: #851ce1;
   --bg-color-header-btn:#851ce1;
   --font-color-content-presentation: #851ce1;
-  --text-color-projects-description: #851ce1;
+  --text-color-projects-description: white;
   --font-color-legend-form-contact:#851ce1;
   --font-color-footer-phrase: #851ce1;
   --bg-color-progress_bar: #94a1b2;
@@ -1617,12 +1635,13 @@ p {
   --bg-color-text-content: #020e33;
   --bg-color-tools-grid_element: #020e33;
   --bg-color-footer: #020e33;
-  --font-color-fake_navigator:black;
+  --font-color-fake_navigator:white;
   --effect-cursor-typer:white;
   --font-color-footer-copyrigth: white;
   --icon-color-footer-social:white;
   --link-color-about: white;
   --font-color-h2-inage-contact:white;
+  --font-color-input-contact:white;
   --font-color-project-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
@@ -1637,14 +1656,15 @@ p {
   --switch-color-stars: rgb(231, 210, 22);
   --switch-text-color: #FFF;
   --switch-disabled-text-color: transparent;
-  --bg-color-fake_navigator:#ddd;
+  --shadow-color-card:rgba(255, 255, 255, 0.6);
+  --bg-color-fake_navigator:rgb(97, 97, 97);
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
-  --hr-color:rgba(128, 128, 128, 0.2);
-  --shadow-boton-pdf: rgba(0,0,0,.5);
+  --hr-color:rgba(197, 197, 197, 0.2);
+  --shadow-boton-pdf: rgba(255, 255, 255, 0.5);
   --bg-color-pdf-button:#F70909;
   --font-color-subtitle-presentation: white;
-  --bg-color-project-element-description: rgba(227,223,220, .8);
+  --bg-color-project-element-description: rgba(83, 82, 80, 0.8);
   --bg-color-header: transparent;
   --bg-color-pc-header: transparent;
   --bg-color-footer-image: transparent;
@@ -1843,6 +1863,7 @@ p {
   --link-color-about: black;
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
+  --font-color-input-contact: black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -1856,6 +1877,7 @@ p {
   --switch-color-stars: blue;
   --switch-text-color: #000000;
   --switch-disabled-text-color: transparent;
+  --shadow-color-card: rgba(0, 0, 0, 0.6);
   --bg-color-fake_navigator:#ddd;
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
@@ -1881,7 +1903,7 @@ p {
   --color-font-pc-nav-bar: #851ce1;
   --bg-color-header-btn:#851ce1;
   --font-color-content-presentation: #851ce1;
-  --text-color-projects-description: #851ce1;
+  --text-color-projects-description: white;
   --font-color-legend-form-contact:#851ce1;
   --font-color-footer-phrase: #851ce1;
   --bg-color-progress_bar: #94a1b2;
@@ -1898,12 +1920,13 @@ p {
   --bg-color-text-content: #020e33;
   --bg-color-tools-grid_element: #020e33;
   --bg-color-footer: #020e33;
-  --font-color-fake_navigator:black;
+  --font-color-fake_navigator:white;
   --effect-cursor-typer:white;
   --font-color-footer-copyrigth: white;
   --icon-color-footer-social:white;
   --link-color-about: white;
   --font-color-h2-inage-contact:white;
+  --font-color-input-contact:white;
   --font-color-project-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
@@ -1918,14 +1941,15 @@ p {
   --switch-color-stars: rgb(231, 210, 22);
   --switch-text-color: #FFF;
   --switch-disabled-text-color: transparent;
-  --bg-color-fake_navigator:#ddd;
+  --shadow-color-card:rgba(255, 255, 255, 0.6);
+  --bg-color-fake_navigator:rgb(97, 97, 97);
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
-  --hr-color:rgba(128, 128, 128, 0.2);
-  --shadow-boton-pdf: rgba(0,0,0,.5);
+  --hr-color:rgba(197, 197, 197, 0.2);
+  --shadow-boton-pdf: rgba(255, 255, 255, 0.5);
   --bg-color-pdf-button:#F70909;
   --font-color-subtitle-presentation: white;
-  --bg-color-project-element-description: rgba(227,223,220, .8);
+  --bg-color-project-element-description: rgba(83, 82, 80, 0.8);
   --bg-color-header: transparent;
   --bg-color-pc-header: transparent;
   --bg-color-footer-image: transparent;
@@ -2137,6 +2161,7 @@ p {
   --link-color-about: black;
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
+  --font-color-input-contact: black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -2150,6 +2175,7 @@ p {
   --switch-color-stars: blue;
   --switch-text-color: #000000;
   --switch-disabled-text-color: transparent;
+  --shadow-color-card: rgba(0, 0, 0, 0.6);
   --bg-color-fake_navigator:#ddd;
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
@@ -2175,7 +2201,7 @@ p {
   --color-font-pc-nav-bar: #851ce1;
   --bg-color-header-btn:#851ce1;
   --font-color-content-presentation: #851ce1;
-  --text-color-projects-description: #851ce1;
+  --text-color-projects-description: white;
   --font-color-legend-form-contact:#851ce1;
   --font-color-footer-phrase: #851ce1;
   --bg-color-progress_bar: #94a1b2;
@@ -2192,12 +2218,13 @@ p {
   --bg-color-text-content: #020e33;
   --bg-color-tools-grid_element: #020e33;
   --bg-color-footer: #020e33;
-  --font-color-fake_navigator:black;
+  --font-color-fake_navigator:white;
   --effect-cursor-typer:white;
   --font-color-footer-copyrigth: white;
   --icon-color-footer-social:white;
   --link-color-about: white;
   --font-color-h2-inage-contact:white;
+  --font-color-input-contact:white;
   --font-color-project-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
@@ -2212,14 +2239,15 @@ p {
   --switch-color-stars: rgb(231, 210, 22);
   --switch-text-color: #FFF;
   --switch-disabled-text-color: transparent;
-  --bg-color-fake_navigator:#ddd;
+  --shadow-color-card:rgba(255, 255, 255, 0.6);
+  --bg-color-fake_navigator:rgb(97, 97, 97);
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
-  --hr-color:rgba(128, 128, 128, 0.2);
-  --shadow-boton-pdf: rgba(0,0,0,.5);
+  --hr-color:rgba(197, 197, 197, 0.2);
+  --shadow-boton-pdf: rgba(255, 255, 255, 0.5);
   --bg-color-pdf-button:#F70909;
   --font-color-subtitle-presentation: white;
-  --bg-color-project-element-description: rgba(227,223,220, .8);
+  --bg-color-project-element-description: rgba(83, 82, 80, 0.8);
   --bg-color-header: transparent;
   --bg-color-pc-header: transparent;
   --bg-color-footer-image: transparent;
@@ -2260,7 +2288,7 @@ p {
 .main__languages__content {
   height: 100%;
   background-color: var(--bg-color-text-content);
-  box-shadow: 21px 21px 7px -7px rgba(0, 0, 0, 0.6);
+  box-shadow: 21px 21px 7px -7px var(--shadow-color-card);
   padding: 1.5rem;
   border-radius: 2rem;
   margin-bottom: 2rem;
@@ -2361,7 +2389,7 @@ p {
 }
 .main__languages__progress-bars .frontend, .main__languages__progress-bars .backend {
   background-color: var(--bg-color-text-content);
-  box-shadow: 21px 21px 7px -7px rgba(0, 0, 0, 0.6);
+  box-shadow: 21px 21px 7px -7px var(--shadow-color-card);
   padding: 1.5rem;
   border-radius: 2rem;
   margin-bottom: 2rem;
@@ -2530,7 +2558,7 @@ p {
   }
   .main__languages__progress-bars .backend, .main__languages__progress-bars .frontend {
     background-color: var(--bg-color-text-content);
-    box-shadow: 21px 21px 7px -7px rgba(0, 0, 0, 0.6);
+    box-shadow: 21px 21px 7px -7px var(--shadow-color-card);
     padding: 1.5rem;
     border-radius: 2rem;
     display: flex;
@@ -2584,7 +2612,7 @@ p {
   }
   .main__languages__progress-bars .backend, .main__languages__progress-bars .frontend {
     background-color: var(--bg-color-text-content);
-    box-shadow: 21px 21px 7px -7px rgba(0, 0, 0, 0.6);
+    box-shadow: 21px 21px 7px -7px var(--shadow-color-card);
     padding: 1.5rem;
     border-radius: 2rem;
     margin-bottom: 2rem;
@@ -2640,6 +2668,7 @@ p {
   --link-color-about: black;
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
+  --font-color-input-contact: black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -2653,6 +2682,7 @@ p {
   --switch-color-stars: blue;
   --switch-text-color: #000000;
   --switch-disabled-text-color: transparent;
+  --shadow-color-card: rgba(0, 0, 0, 0.6);
   --bg-color-fake_navigator:#ddd;
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
@@ -2678,7 +2708,7 @@ p {
   --color-font-pc-nav-bar: #851ce1;
   --bg-color-header-btn:#851ce1;
   --font-color-content-presentation: #851ce1;
-  --text-color-projects-description: #851ce1;
+  --text-color-projects-description: white;
   --font-color-legend-form-contact:#851ce1;
   --font-color-footer-phrase: #851ce1;
   --bg-color-progress_bar: #94a1b2;
@@ -2695,12 +2725,13 @@ p {
   --bg-color-text-content: #020e33;
   --bg-color-tools-grid_element: #020e33;
   --bg-color-footer: #020e33;
-  --font-color-fake_navigator:black;
+  --font-color-fake_navigator:white;
   --effect-cursor-typer:white;
   --font-color-footer-copyrigth: white;
   --icon-color-footer-social:white;
   --link-color-about: white;
   --font-color-h2-inage-contact:white;
+  --font-color-input-contact:white;
   --font-color-project-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
@@ -2715,14 +2746,15 @@ p {
   --switch-color-stars: rgb(231, 210, 22);
   --switch-text-color: #FFF;
   --switch-disabled-text-color: transparent;
-  --bg-color-fake_navigator:#ddd;
+  --shadow-color-card:rgba(255, 255, 255, 0.6);
+  --bg-color-fake_navigator:rgb(97, 97, 97);
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
-  --hr-color:rgba(128, 128, 128, 0.2);
-  --shadow-boton-pdf: rgba(0,0,0,.5);
+  --hr-color:rgba(197, 197, 197, 0.2);
+  --shadow-boton-pdf: rgba(255, 255, 255, 0.5);
   --bg-color-pdf-button:#F70909;
   --font-color-subtitle-presentation: white;
-  --bg-color-project-element-description: rgba(227,223,220, .8);
+  --bg-color-project-element-description: rgba(83, 82, 80, 0.8);
   --bg-color-header: transparent;
   --bg-color-pc-header: transparent;
   --bg-color-footer-image: transparent;
@@ -3022,6 +3054,7 @@ p {
   --link-color-about: black;
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
+  --font-color-input-contact: black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -3035,6 +3068,7 @@ p {
   --switch-color-stars: blue;
   --switch-text-color: #000000;
   --switch-disabled-text-color: transparent;
+  --shadow-color-card: rgba(0, 0, 0, 0.6);
   --bg-color-fake_navigator:#ddd;
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
@@ -3060,7 +3094,7 @@ p {
   --color-font-pc-nav-bar: #851ce1;
   --bg-color-header-btn:#851ce1;
   --font-color-content-presentation: #851ce1;
-  --text-color-projects-description: #851ce1;
+  --text-color-projects-description: white;
   --font-color-legend-form-contact:#851ce1;
   --font-color-footer-phrase: #851ce1;
   --bg-color-progress_bar: #94a1b2;
@@ -3077,12 +3111,13 @@ p {
   --bg-color-text-content: #020e33;
   --bg-color-tools-grid_element: #020e33;
   --bg-color-footer: #020e33;
-  --font-color-fake_navigator:black;
+  --font-color-fake_navigator:white;
   --effect-cursor-typer:white;
   --font-color-footer-copyrigth: white;
   --icon-color-footer-social:white;
   --link-color-about: white;
   --font-color-h2-inage-contact:white;
+  --font-color-input-contact:white;
   --font-color-project-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
@@ -3097,14 +3132,15 @@ p {
   --switch-color-stars: rgb(231, 210, 22);
   --switch-text-color: #FFF;
   --switch-disabled-text-color: transparent;
-  --bg-color-fake_navigator:#ddd;
+  --shadow-color-card:rgba(255, 255, 255, 0.6);
+  --bg-color-fake_navigator:rgb(97, 97, 97);
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
-  --hr-color:rgba(128, 128, 128, 0.2);
-  --shadow-boton-pdf: rgba(0,0,0,.5);
+  --hr-color:rgba(197, 197, 197, 0.2);
+  --shadow-boton-pdf: rgba(255, 255, 255, 0.5);
   --bg-color-pdf-button:#F70909;
   --font-color-subtitle-presentation: white;
-  --bg-color-project-element-description: rgba(227,223,220, .8);
+  --bg-color-project-element-description: rgba(83, 82, 80, 0.8);
   --bg-color-header: transparent;
   --bg-color-pc-header: transparent;
   --bg-color-footer-image: transparent;
@@ -3391,6 +3427,7 @@ p {
   --link-color-about: black;
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
+  --font-color-input-contact: black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -3404,6 +3441,7 @@ p {
   --switch-color-stars: blue;
   --switch-text-color: #000000;
   --switch-disabled-text-color: transparent;
+  --shadow-color-card: rgba(0, 0, 0, 0.6);
   --bg-color-fake_navigator:#ddd;
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
@@ -3429,7 +3467,7 @@ p {
   --color-font-pc-nav-bar: #851ce1;
   --bg-color-header-btn:#851ce1;
   --font-color-content-presentation: #851ce1;
-  --text-color-projects-description: #851ce1;
+  --text-color-projects-description: white;
   --font-color-legend-form-contact:#851ce1;
   --font-color-footer-phrase: #851ce1;
   --bg-color-progress_bar: #94a1b2;
@@ -3446,12 +3484,13 @@ p {
   --bg-color-text-content: #020e33;
   --bg-color-tools-grid_element: #020e33;
   --bg-color-footer: #020e33;
-  --font-color-fake_navigator:black;
+  --font-color-fake_navigator:white;
   --effect-cursor-typer:white;
   --font-color-footer-copyrigth: white;
   --icon-color-footer-social:white;
   --link-color-about: white;
   --font-color-h2-inage-contact:white;
+  --font-color-input-contact:white;
   --font-color-project-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
@@ -3466,14 +3505,15 @@ p {
   --switch-color-stars: rgb(231, 210, 22);
   --switch-text-color: #FFF;
   --switch-disabled-text-color: transparent;
-  --bg-color-fake_navigator:#ddd;
+  --shadow-color-card:rgba(255, 255, 255, 0.6);
+  --bg-color-fake_navigator:rgb(97, 97, 97);
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
-  --hr-color:rgba(128, 128, 128, 0.2);
-  --shadow-boton-pdf: rgba(0,0,0,.5);
+  --hr-color:rgba(197, 197, 197, 0.2);
+  --shadow-boton-pdf: rgba(255, 255, 255, 0.5);
   --bg-color-pdf-button:#F70909;
   --font-color-subtitle-presentation: white;
-  --bg-color-project-element-description: rgba(227,223,220, .8);
+  --bg-color-project-element-description: rgba(83, 82, 80, 0.8);
   --bg-color-header: transparent;
   --bg-color-pc-header: transparent;
   --bg-color-footer-image: transparent;
@@ -3531,7 +3571,7 @@ p {
 }
 .main__contact form {
   background-color: var(--bg-color-text-content);
-  box-shadow: 21px 21px 7px -7px rgba(0, 0, 0, 0.6);
+  box-shadow: 21px 21px 7px -7px var(--shadow-color-card);
   padding: 1.5rem;
   border-radius: 2rem;
   width: 100%;
@@ -3605,6 +3645,7 @@ p {
   width: 100%;
 }
 .main__contact form .input-group input, .main__contact form .input-group textarea {
+  color: var(--font-color-input-contact);
   background-color: var(--bg-color-contact-input);
   border-radius: 10px;
   font-size: 4vw;
@@ -3748,6 +3789,7 @@ p {
   --link-color-about: black;
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
+  --font-color-input-contact: black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -3761,6 +3803,7 @@ p {
   --switch-color-stars: blue;
   --switch-text-color: #000000;
   --switch-disabled-text-color: transparent;
+  --shadow-color-card: rgba(0, 0, 0, 0.6);
   --bg-color-fake_navigator:#ddd;
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
@@ -3786,7 +3829,7 @@ p {
   --color-font-pc-nav-bar: #851ce1;
   --bg-color-header-btn:#851ce1;
   --font-color-content-presentation: #851ce1;
-  --text-color-projects-description: #851ce1;
+  --text-color-projects-description: white;
   --font-color-legend-form-contact:#851ce1;
   --font-color-footer-phrase: #851ce1;
   --bg-color-progress_bar: #94a1b2;
@@ -3803,12 +3846,13 @@ p {
   --bg-color-text-content: #020e33;
   --bg-color-tools-grid_element: #020e33;
   --bg-color-footer: #020e33;
-  --font-color-fake_navigator:black;
+  --font-color-fake_navigator:white;
   --effect-cursor-typer:white;
   --font-color-footer-copyrigth: white;
   --icon-color-footer-social:white;
   --link-color-about: white;
   --font-color-h2-inage-contact:white;
+  --font-color-input-contact:white;
   --font-color-project-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
@@ -3823,14 +3867,15 @@ p {
   --switch-color-stars: rgb(231, 210, 22);
   --switch-text-color: #FFF;
   --switch-disabled-text-color: transparent;
-  --bg-color-fake_navigator:#ddd;
+  --shadow-color-card:rgba(255, 255, 255, 0.6);
+  --bg-color-fake_navigator:rgb(97, 97, 97);
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
-  --hr-color:rgba(128, 128, 128, 0.2);
-  --shadow-boton-pdf: rgba(0,0,0,.5);
+  --hr-color:rgba(197, 197, 197, 0.2);
+  --shadow-boton-pdf: rgba(255, 255, 255, 0.5);
   --bg-color-pdf-button:#F70909;
   --font-color-subtitle-presentation: white;
-  --bg-color-project-element-description: rgba(227,223,220, .8);
+  --bg-color-project-element-description: rgba(83, 82, 80, 0.8);
   --bg-color-header: transparent;
   --bg-color-pc-header: transparent;
   --bg-color-footer-image: transparent;
@@ -4027,6 +4072,7 @@ p {
   --link-color-about: black;
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
+  --font-color-input-contact: black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -4040,6 +4086,7 @@ p {
   --switch-color-stars: blue;
   --switch-text-color: #000000;
   --switch-disabled-text-color: transparent;
+  --shadow-color-card: rgba(0, 0, 0, 0.6);
   --bg-color-fake_navigator:#ddd;
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
@@ -4065,7 +4112,7 @@ p {
   --color-font-pc-nav-bar: #851ce1;
   --bg-color-header-btn:#851ce1;
   --font-color-content-presentation: #851ce1;
-  --text-color-projects-description: #851ce1;
+  --text-color-projects-description: white;
   --font-color-legend-form-contact:#851ce1;
   --font-color-footer-phrase: #851ce1;
   --bg-color-progress_bar: #94a1b2;
@@ -4082,12 +4129,13 @@ p {
   --bg-color-text-content: #020e33;
   --bg-color-tools-grid_element: #020e33;
   --bg-color-footer: #020e33;
-  --font-color-fake_navigator:black;
+  --font-color-fake_navigator:white;
   --effect-cursor-typer:white;
   --font-color-footer-copyrigth: white;
   --icon-color-footer-social:white;
   --link-color-about: white;
   --font-color-h2-inage-contact:white;
+  --font-color-input-contact:white;
   --font-color-project-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
@@ -4102,14 +4150,15 @@ p {
   --switch-color-stars: rgb(231, 210, 22);
   --switch-text-color: #FFF;
   --switch-disabled-text-color: transparent;
-  --bg-color-fake_navigator:#ddd;
+  --shadow-color-card:rgba(255, 255, 255, 0.6);
+  --bg-color-fake_navigator:rgb(97, 97, 97);
   --shadow-color-input:rgba(0,0,0,0.7);
   --border-color-progress_bar:#e6f3fa;
-  --hr-color:rgba(128, 128, 128, 0.2);
-  --shadow-boton-pdf: rgba(0,0,0,.5);
+  --hr-color:rgba(197, 197, 197, 0.2);
+  --shadow-boton-pdf: rgba(255, 255, 255, 0.5);
   --bg-color-pdf-button:#F70909;
   --font-color-subtitle-presentation: white;
-  --bg-color-project-element-description: rgba(227,223,220, .8);
+  --bg-color-project-element-description: rgba(83, 82, 80, 0.8);
   --bg-color-header: transparent;
   --bg-color-pc-header: transparent;
   --bg-color-footer-image: transparent;
