@@ -9,7 +9,7 @@ botonMenu.addEventListener("click", () => {
 })
 //change menu image
 window.addEventListener("resize", ChangeNavImage)
-window.onload = ChangeNavImage
+
 
 //hover project element
 
@@ -140,7 +140,7 @@ const $checkTheme = document.querySelector("#theme-btn")
 
 
 function switchTheme(checkValue) {
-  console.log(checkValue)
+  
   const $checkTheme = document.querySelector("#theme-btn")
   if(typeof checkValue !== 'string'){
     checkValue = $checkTheme.checked
@@ -181,13 +181,14 @@ function switchTheme(checkValue) {
 function  verifySwitch(){
   const $checkTheme = document.querySelector("#theme-btn")
   let checkValue = localStorage.getItem("checktheme")
-  console.log(checkValue)
+  
   if(checkValue === null){
    localStorage.setItem("checktheme", $checkTheme.checked)
    checkValue = localStorage.getItem("checktheme")
   }
-  console.log(checkValue)
+ 
   switchTheme(checkValue)
+  ChangeNavImage()
 }
 toggleSwitch.addEventListener("change", switchTheme);
 
