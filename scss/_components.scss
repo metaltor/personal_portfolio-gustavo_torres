@@ -188,17 +188,17 @@ padding: 0.3rem 1.5rem;
     font-weight: 900;
     font-size: 18px;
     border-radius: 0.4em;
-    box-shadow: 0.1em 0.1em;
+    box-shadow: 0.1em 0.1em gray;
    }
 
    .button-desc:hover {
     transform: translate(-0.05em, -0.05em);
-    box-shadow: 0.15em 0.15em;
+    box-shadow: 0.15em 0.15em gray;
    }
 
    .button-desc:active {
     transform: translate(0.05em, 0.05em);
-    box-shadow: 0.05em 0.05em;
+    box-shadow: 0.05em 0.05em gray;
    }
 
    //imputs style
