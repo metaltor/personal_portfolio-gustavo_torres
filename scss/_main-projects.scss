@@ -99,13 +99,15 @@
         display: flex;
         align-items: center;
         position: relative;
-       
+        
         &__image{
             
             width: 100%;
             flex-grow: 1;
             
-            
+            h3{
+                color:var(--font-color-project-element-text)
+            }
             img{
                 width: 100%;
                 max-height: 100%;

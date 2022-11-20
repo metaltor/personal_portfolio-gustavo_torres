@@ -2,7 +2,13 @@ $color-light-primary : #5a2bd1;
 $color-light-secondary: #7D7B79;
 $color-light-third: #ff4346;
 $color-light-fourt: #E3DFDC;
-$color-ligth-background:#fdf9f6;
+$color-light-background:#fdf9f6;
+
+$color-dark-primary : #a333fb ;
+$color-dark-secondary: #959090;
+$color-dark-third: #ff4346;
+$color-dark-fourt: #333233;
+$color-dark-background:#1d1b1d;
 :root {
 //background color
 //background principal
@@ -75,6 +81,10 @@ $color-ligth-background:#fdf9f6;
 --icon-color-footer-social:black;
 //about
 --link-color-about : black;
+//contact
+--font-color-h2-inage-contact:black;
+//project
+--font-color-project-element-text:black;
 
 
 //white
@@ -126,40 +136,45 @@ $color-ligth-background:#fdf9f6;
 
   }
   [data-theme="dark"] {
-    //background color
+    //paleta
+     $color-dark-primary : #a333fb ;
+     $color-dark-secondary: #959090;
+     $color-dark-third: #ff4346;
+     $color-dark-fourt: #333233;
+     $color-dark-background:#1d1b1d;
  
 
     //background principal
-    --bg-color-primary: #1C2138;
-    --bg-color-pc-navbar : #fdf9f6;
+    --bg-color-primary: #222c4d;
+    --bg-color-pc-navbar : #222c4d;
 
-    --bg-color-nav-bar: #dae5fe;
+    --bg-color-nav-bar: #3a3b3d;
 
     //primary color
     //components
-    --bg-color-contact-label-hover: #5a2bd1;
+    --bg-color-contact-label-hover: #851ce1;
     //globals
-    --font-color-h2-content: #5a2bd1 ;
+    --font-color-h2-content: #851ce1 ;
     //header
-    --font-color-nav-bar: #5a2bd1;
-    --color-font-pc-nav-bar: #5a2bd1;
-    --bg-color-header-btn:#5a2bd1;
+    --font-color-nav-bar: #851ce1;
+    --color-font-pc-nav-bar: #851ce1;
+    --bg-color-header-btn:#851ce1;
     //presentantion
-    --font-color-content-presentation: #5a2bd1;
+    --font-color-content-presentation: #851ce1;
     //project
-    --text-color-projects-description : #5a2bd1;
+    --text-color-projects-description : #851ce1;
     //contact
-    --font-color-legend-form-contact:#5a2bd1;
+    --font-color-legend-form-contact:#851ce1;
     //footer
-    --font-color-footer-phrase: #5a2bd1;
+    --font-color-footer-phrase: #851ce1;
 
     //seconday color
     //components
-    --bg-color-progress_bar: #7D7B79;
-    --border-color-contact-input-active: #7D7B79;
-    --font-color-contact-label : #7D7B79;
+    --bg-color-progress_bar: #94a1b2;
+    --border-color-contact-input-active: #94a1b2;
+    --font-color-contact-label : #94a1b2;
     //globals
-    --font-color-p-text-area : #7D7B79;
+    --font-color-p-text-area : #94a1b2;
 
     //thtird color
     //components
@@ -176,47 +191,50 @@ $color-ligth-background:#fdf9f6;
 
     //fourth color
     //components
-    --bg-color-contact-input:#E3DFDC;
+    --bg-color-contact-input:#020e33;
     //globals
-    --bg-color-text-content: #E3DFDC;//rgb(227,223,220) ;
+    --bg-color-text-content: #020e33;//rgb(227,223,220) ;
     //tools
-    --bg-color-tools-grid_element: #E3DFDC;
+    --bg-color-tools-grid_element: #020e33;
     //footer
-    --bg-color-footer: #E3DFDC;
+    --bg-color-footer: #020e33;
 
     //black
     //components
     --font-color-fake_navigator:black;
     //efects
-    --effect-cursor-typer:black;
+    --effect-cursor-typer:white;
     //footer
-    --font-color-footer-copyrigth: black;
-    --icon-color-footer-social:black;
+    --font-color-footer-copyrigth: white;
+    --icon-color-footer-social:white;
     //about
-    --link-color-about : black;
-
+    --link-color-about : white;
+    //contact
+    --font-color-h2-inage-contact:white;
+    //project
+    --font-color-project-element-text:white;
 
     //white
     //components
     --color-icon-share_button:white;
     --buton-color-text: white;//listo
-    --font-color-contact-label-hover: white;
+    --font-color-contact-label-hover: black;
     //header
-    --icon-color-nav-bar: white;
+    --icon-color-nav-bar: black;
     --font-color-link_hover-navbar: white;
-    --border-color-navbar: white;
+    --border-color-navbar: black;
     //about
-    --bg-color-image-animation-about:white;
+    --bg-color-image-animation-about:black;
     //projects
-    --icon-color-projects-button : white;
+    --icon-color-projects-button : black;
 
     //mix colors
     //components
 
-        --switch-color-sun_moon: #fe9f5b;
-        --switch-color-bg: #e7e8eb;
-        --switch-color-stars: blue;
-        --switch-text-color: #000000;
+        --switch-color-sun_moon: #fef35b;
+        --switch-color-bg: #031447;
+        --switch-color-stars: rgb(231, 210, 22);
+        --switch-text-color: #FFF;
         --switch-disabled-text-color: transparent;
         
 
@@ -228,7 +246,7 @@ $color-ligth-background:#fdf9f6;
     --shadow-boton-pdf: rgba(0,0,0,.5);
     --bg-color-pdf-button:#F70909;
     //presentation (listo)
-    --font-color-subtitle-presentation: rgb(43, 39, 39);
+    --font-color-subtitle-presentation: white;
     //projects
     --bg-color-project-element-description: rgba(227,223,220, .8);
 
