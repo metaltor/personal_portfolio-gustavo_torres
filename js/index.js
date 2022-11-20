@@ -40,7 +40,7 @@ function autoType(elementClass, typingSpeed, typeOut){
     thhis = thhis.find(typeOut);
     var text = thhis.text().trim().split('');
     var amntOfChars = text.length;
-	console.log(amntOfChars)
+
     var newString = "";
 	const barTime =  typingSpeed *  (amntOfChars+2)
     // thhis.text("|");
@@ -132,21 +132,63 @@ $(function(){
 });
 
 //change background
-
+window.onload = verifySwitch()
 const toggleSwitch = document.querySelector(
   '.theme-switch-wrapper input[type="checkbox"]'
 );
+const $checkTheme = document.querySelector("#theme-btn")
 
-function switchTheme(e) {
+
+function switchTheme(checkValue) {
+  console.log(checkValue)
+  const $checkTheme = document.querySelector("#theme-btn")
+  if(typeof checkValue !== 'string'){
+    checkValue = $checkTheme.checked
+  }
   let lightThemeText = document.getElementById("light-theme-text");
   let darkThemeText = document.getElementById("dark-theme-text");
-  lightThemeText.classList.toggle("disabled");
-  darkThemeText.classList.toggle("disabled");
-  if (e.target.checked) {
+  const $logo = document.querySelector("#logo")
+  const $imgGithub = document.querySelector("#github")
+  
+ 
+  if (checkValue === "true" || checkValue === true) {
+    $logo.src = "img/logo.png"
+    try{
+      $imgGithub.src = "img/tools/github-light.png"
+    }catch(error){}
     document.documentElement.setAttribute("data-theme", "dark");
-  } else {
+    lightThemeText.classList.add("disabled");
+    darkThemeText.classList.remove("disabled");
+    if(checkValue === "true"){
+      $checkTheme.checked=true
+    }    
+  } else if (checkValue === "false" || checkValue === false) {
+    $logo.src = "img/logo-white.png"
+    
+    try{
+      $imgGithub.src = "img/tools/github-dark.png"
+    }catch(error){}
     document.documentElement.setAttribute("data-theme", "light");
+    lightThemeText.classList.remove("disabled");
+    darkThemeText.classList.add("disabled");
+    if(checkValue === "false"){
+      $checkTheme.checked=false
+    }
   }
+  localStorage.setItem("checktheme", checkValue)
 }
 
-toggleSwitch.addEventListener("change", switchTheme, false);
+function  verifySwitch(){
+  const $checkTheme = document.querySelector("#theme-btn")
+  let checkValue = localStorage.getItem("checktheme")
+  console.log(checkValue)
+  if(checkValue === null){
+   localStorage.setItem("checktheme", $checkTheme.checked)
+   checkValue = localStorage.getItem("checktheme")
+  }
+  console.log(checkValue)
+  switchTheme(checkValue)
+}
+toggleSwitch.addEventListener("change", switchTheme);
+
+

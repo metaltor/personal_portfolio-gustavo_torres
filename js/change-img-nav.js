@@ -4,10 +4,10 @@ function ChangeNavImage(){
     const width = screen.width
     const height = screen.height
     if(height < width ){
-        console.log('landscape')  
+         
         navBarCartoon.src = "img/pointer-right.png"
     }else{
-        console.log('portraid')  
+        
         navBarCartoon.src = "img/pointer-top.png"
     } 
     

@@ -7,7 +7,7 @@
     &__animation{
         @include main-section-image;
         // background-color: var(--bg-color-image-animation-about);
-        background:no-repeat center/110% url(img/Capture.PNG);
+        background:no-repeat center/110% url(/img/banana-background.PNG);
         margin-bottom: 1rem;
         border-radius: 100%;
         border: 6px solid var(--border-color-image-animation-about);
@@ -18,7 +18,7 @@
         @include main-section-text;
         //posible mixin
         background-color: var(--bg-color-text-content);
-        box-shadow: 21px 21px 7px -7px rgba(0,0,0,0.6);
+        box-shadow: 21px 21px 7px -7px var(--shadow-color-card);
         padding: 1.5rem;
         border-radius: 2rem;
         //end
