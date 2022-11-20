@@ -34,6 +34,7 @@
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
   --font-color-input-contact: black;
+  --font-color-tools-element-text:black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -98,6 +99,7 @@
   --font-color-h2-inage-contact:white;
   --font-color-input-contact:white;
   --font-color-project-element-text:white;
+  --font-color-tools-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: black;
@@ -487,6 +489,7 @@ template {
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
   --font-color-input-contact: black;
+  --font-color-tools-element-text:black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -551,6 +554,7 @@ template {
   --font-color-h2-inage-contact:white;
   --font-color-input-contact:white;
   --font-color-project-element-text:white;
+  --font-color-tools-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: black;
@@ -698,6 +702,7 @@ p {
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
   --font-color-input-contact: black;
+  --font-color-tools-element-text:black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -762,6 +767,7 @@ p {
   --font-color-h2-inage-contact:white;
   --font-color-input-contact:white;
   --font-color-project-element-text:white;
+  --font-color-tools-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: black;
@@ -1282,6 +1288,7 @@ p {
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
   --font-color-input-contact: black;
+  --font-color-tools-element-text:black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -1346,6 +1353,7 @@ p {
   --font-color-h2-inage-contact:white;
   --font-color-input-contact:white;
   --font-color-project-element-text:white;
+  --font-color-tools-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: black;
@@ -1579,6 +1587,7 @@ p {
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
   --font-color-input-contact: black;
+  --font-color-tools-element-text:black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -1643,6 +1652,7 @@ p {
   --font-color-h2-inage-contact:white;
   --font-color-input-contact:white;
   --font-color-project-element-text:white;
+  --font-color-tools-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: black;
@@ -1864,6 +1874,7 @@ p {
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
   --font-color-input-contact: black;
+  --font-color-tools-element-text:black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -1928,6 +1939,7 @@ p {
   --font-color-h2-inage-contact:white;
   --font-color-input-contact:white;
   --font-color-project-element-text:white;
+  --font-color-tools-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: black;
@@ -2162,6 +2174,7 @@ p {
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
   --font-color-input-contact: black;
+  --font-color-tools-element-text:black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -2226,6 +2239,7 @@ p {
   --font-color-h2-inage-contact:white;
   --font-color-input-contact:white;
   --font-color-project-element-text:white;
+  --font-color-tools-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: black;
@@ -2669,6 +2683,7 @@ p {
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
   --font-color-input-contact: black;
+  --font-color-tools-element-text:black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -2733,6 +2748,7 @@ p {
   --font-color-h2-inage-contact:white;
   --font-color-input-contact:white;
   --font-color-project-element-text:white;
+  --font-color-tools-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: black;
@@ -3009,7 +3025,7 @@ p {
     padding: 0 10rem;
   }
   .tools__grid__element h3 {
-    color: var(--font-color-project-element-text);
+    color: var(--font-color-tools-element-text);
     font-size: 1.4rem;
   }
   .tools__grid__element__image {
@@ -3055,6 +3071,7 @@ p {
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
   --font-color-input-contact: black;
+  --font-color-tools-element-text:black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -3119,6 +3136,7 @@ p {
   --font-color-h2-inage-contact:white;
   --font-color-input-contact:white;
   --font-color-project-element-text:white;
+  --font-color-tools-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: black;
@@ -3428,6 +3446,7 @@ p {
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
   --font-color-input-contact: black;
+  --font-color-tools-element-text:black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -3492,6 +3511,7 @@ p {
   --font-color-h2-inage-contact:white;
   --font-color-input-contact:white;
   --font-color-project-element-text:white;
+  --font-color-tools-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: black;
@@ -3790,6 +3810,7 @@ p {
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
   --font-color-input-contact: black;
+  --font-color-tools-element-text:black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -3854,6 +3875,7 @@ p {
   --font-color-h2-inage-contact:white;
   --font-color-input-contact:white;
   --font-color-project-element-text:white;
+  --font-color-tools-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: black;
@@ -4073,6 +4095,7 @@ p {
   --font-color-h2-inage-contact:black;
   --font-color-project-element-text:black;
   --font-color-input-contact: black;
+  --font-color-tools-element-text:black;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: white;
@@ -4137,6 +4160,7 @@ p {
   --font-color-h2-inage-contact:white;
   --font-color-input-contact:white;
   --font-color-project-element-text:white;
+  --font-color-tools-element-text:white;
   --color-icon-share_button:white;
   --buton-color-text: white;
   --font-color-contact-label-hover: black;
