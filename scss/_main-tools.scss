@@ -123,6 +123,7 @@
         padding: 1rem;
         // border-radius: 1rem;
         h3{
+            color:var(--font-color-tools-element-text);
             font-size: 1.2rem;
             text-align: center;
             padding-bottom: 0.5rem;
@@ -189,7 +190,7 @@
         &__element{
             h3{
                
-                color:var(--font-color-tools-element-text);
+                
                 font-size: 1.4rem;
             }
             &__image{

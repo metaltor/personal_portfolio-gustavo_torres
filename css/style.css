@@ -2975,6 +2975,7 @@ p {
   padding: 1rem;
 }
 .tools__grid__element h3 {
+  color: var(--font-color-tools-element-text);
   font-size: 1.2rem;
   text-align: center;
   padding-bottom: 0.5rem;
@@ -3025,7 +3026,6 @@ p {
     padding: 0 10rem;
   }
   .tools__grid__element h3 {
-    color: var(--font-color-tools-element-text);
     font-size: 1.4rem;
   }
   .tools__grid__element__image {
